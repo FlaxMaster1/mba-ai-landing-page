@@ -148,6 +148,7 @@
             "eyebrow": "FROM THE START",
             "title": "Tools for doing the work",
             "description": "MBA students are introduced to AI during Pre-Term, with school-supported access to ChatGPT, Codex, Claude, and Claude Code. Faculty expectations for responsible classroom use still apply.",
+            "image": { "assetId": "ai-preterm-hero" },
             "action": {
               "label": "See the MBA AI foundation",
               "url": "https://www.wharton.upenn.edu/whartons-mba-experience-begins-with-teamwork-leadership-and-ai/",
@@ -159,6 +160,7 @@
             "eyebrow": "AT THE FRONTIER",
             "title": "Faculty-led AI workshops",
             "description": "Michael Roberts joined Ethan Mollick, Kartik Hosanagar, and Daniel Rock in practical workshops designed to share how faculty use AI in professional and personal work.",
+            "image": { "assetId": "ai-advantage-hero" },
             "action": {
               "label": "Explore Wharton's AI approach",
               "url": "https://www.wharton.upenn.edu/ai-advantage/",
@@ -170,6 +172,7 @@
             "eyebrow": "GO DEEPER",
             "title": "A dedicated AI MBA major",
             "description": "The Artificial Intelligence for Business major connects technical understanding with the economic, strategic, ethical, and organizational questions that shape business decisions.",
+            "image": { "assetId": "mba-majors-hero" },
             "action": {
               "label": "Explore the AI curriculum",
               "url": "https://mba.wharton.upenn.edu/mba-majors/",

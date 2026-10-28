@@ -23,5 +23,20 @@
     "id": "roberts-headshot",
     "file": "images/michael-roberts-cutout.png",
     "alt": "Michael Roberts, Vice Dean of the MBA Program"
+  },
+  {
+    "id": "ai-preterm-hero",
+    "file": "images/ai-preterm-hero.jpg",
+    "alt": "MBA students gathering at a Wharton Pre-Term event"
+  },
+  {
+    "id": "ai-advantage-hero",
+    "file": "images/ai-advantage-hero.png",
+    "alt": "Wharton AI Advantage feature image"
+  },
+  {
+    "id": "mba-majors-hero",
+    "file": "images/mba-majors-hero.jpg",
+    "alt": "Wharton MBA students on campus"
   }
 ]
