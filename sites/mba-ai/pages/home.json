@@ -14,7 +14,7 @@
       {
         "type": "hero",
         "id": "top",
-        "eyebrow": "THE WHARTON MBA · AI AND LEADERSHIP",
+        "eyebrow": "THE WHARTON MBA \u00b7 AI AND LEADERSHIP",
         "heading": "The Advantage Is What You Do With AI.",
         "text": "AI is changing the work. Wharton prepares you to rethink how work gets done, build what comes next, and lead with judgment.",
         "image": {
@@ -39,10 +39,10 @@
         "id": "advantage",
         "eyebrow": "THE CASE FOR A WHARTON MBA",
         "heading": "Access to AI is universal. The ability to lead with it is not.",
-        "quote": "AI can give you an answer. The real question is whether you know what to ask, how to challenge the result, and what to do next. At Wharton, we develop the business judgment to turn powerful tools into better decisions—and the leadership to take responsibility for them.",
+        "quote": "AI can give you an answer. The real question is whether you know what to ask, how to challenge the result, and what to do next. At Wharton, we develop the business judgment to turn powerful tools into better decisions\u2014and the leadership to take responsibility for them.",
         "attribution": "Michael Roberts",
         "role": "Vice Dean of the MBA Program",
-        "approvalNote": "Draft quote — pending Michael Roberts’ approval",
+        "approvalNote": "Draft quote \u2014 pending Michael Roberts\u2019 approval",
         "image": {
           "assetId": "roberts-headshot"
         }
@@ -55,7 +55,7 @@
         "text": "Michael Roberts, Vice Dean of the MBA Program, makes the case for an education that develops builders, critical thinkers, and leaders. A new page-exclusive film is planned; this production slot is deliberately not the same edit used in the admissions email series.",
         "kind": "original-film",
         "status": "planned",
-        "duration": "75–90 seconds",
+        "duration": "75\u201390 seconds",
         "poster": {
           "assetId": "learning-art"
         },
@@ -134,7 +134,9 @@
         "eyebrow": "SCALE WITH THE INSTINCT TO MOVE",
         "heading": "A large institution. An entrepreneurial mindset.",
         "text": "Wharton's scale connects MBA students to faculty expertise across disciplines and alumni across industries. Its agility brings emerging technologies into students' hands while they still matter. As the frontier changes, the learning experience can change with it.",
-        "image": { "assetId": "scale-city" }
+        "image": {
+          "assetId": "scale-city"
+        }
       },
       {
         "type": "cardGrid",
@@ -148,7 +150,9 @@
             "eyebrow": "FROM THE START",
             "title": "Tools for doing the work",
             "description": "MBA students are introduced to AI during Pre-Term, with school-supported access to ChatGPT, Codex, Claude, and Claude Code. Faculty expectations for responsible classroom use still apply.",
-            "image": { "assetId": "ai-preterm-hero" },
+            "image": {
+              "assetId": "ai-preterm-hero"
+            },
             "action": {
               "label": "See the MBA AI foundation",
               "url": "https://www.wharton.upenn.edu/whartons-mba-experience-begins-with-teamwork-leadership-and-ai/",
@@ -160,7 +164,9 @@
             "eyebrow": "AT THE FRONTIER",
             "title": "Faculty-led AI workshops",
             "description": "Michael Roberts joined Ethan Mollick, Kartik Hosanagar, and Daniel Rock in practical workshops designed to share how faculty use AI in professional and personal work.",
-            "image": { "assetId": "ai-advantage-hero" },
+            "image": {
+              "assetId": "ai-advantage-hero"
+            },
             "action": {
               "label": "Explore Wharton's AI approach",
               "url": "https://www.wharton.upenn.edu/ai-advantage/",
@@ -172,7 +178,9 @@
             "eyebrow": "GO DEEPER",
             "title": "A dedicated AI MBA major",
             "description": "The Artificial Intelligence for Business major connects technical understanding with the economic, strategic, ethical, and organizational questions that shape business decisions.",
-            "image": { "assetId": "mba-majors-hero" },
+            "image": {
+              "assetId": "mba-majors-hero"
+            },
             "action": {
               "label": "Explore the AI curriculum",
               "url": "https://mba.wharton.upenn.edu/mba-majors/",
@@ -185,7 +193,7 @@
       {
         "type": "featureRow",
         "id": "student-builder",
-        "eyebrow": "STUDENT SPOTLIGHT · GENERATIVE AI STUDIO",
+        "eyebrow": "STUDENT SPOTLIGHT \u00b7 GENERATIVE AI STUDIO",
         "heading": "From learning AI to building something new.",
         "text": "In Wharton's Generative AI Studio, Hetvee Marviya, WG'27, is developing an AI-powered platform that transforms current events into personalized comic strips for children. The Studio emphasizes prototyping, feedback, and iteration: students create, test, and improve rather than simply study what's possible. A new student-film interview can bring this section to life in a future production round.",
         "image": {
@@ -231,7 +239,10 @@
           "type": "secondary",
           "external": true
         },
-        "surface": "brand-primary"
+        "surface": "brand-primary",
+        "image": {
+          "assetId": "beyond-first-role"
+        }
       },
       {
         "type": "pardotEmbed",

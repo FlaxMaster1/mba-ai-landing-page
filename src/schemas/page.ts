@@ -59,6 +59,7 @@ export const sectionSchema = z.discriminatedUnion("type", [
     heading: z.string().min(1),
     text: z.string().min(1),
     action: actionSchema.optional(),
+    image: imageReferenceSchema.optional(),
     surface: z.enum(["brand-primary", "brand-accent", "subtle"]).default("brand-primary")
   }),
   baseSectionSchema.extend({
