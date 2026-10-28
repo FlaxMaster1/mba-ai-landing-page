@@ -101,6 +101,7 @@ function validateReferences(site: LoadedSite): void {
         if (section.image) requireIds([section.image.assetId], assetIds, "asset IDs", page.route);
       }
       if (section.type === "mbaMedia" && section.poster) requireIds([section.poster.assetId], assetIds, "asset IDs", page.route);
+      if (section.type === "pardotEmbed" && section.image) requireIds([section.image.assetId], assetIds, "asset IDs", page.route);
       if (section.type === "cardGrid") {
         requireIds(section.items.flatMap((item) => item.image ? [item.image.assetId] : []), assetIds, "asset IDs", page.route);
       }

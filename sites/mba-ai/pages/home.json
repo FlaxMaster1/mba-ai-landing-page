@@ -252,7 +252,10 @@
         "text": "Learn how the Wharton MBA brings together rigorous business education, AI fluency, and real-world experience. Request more information to explore whether Wharton is the right next investment in your future.",
         "status": "pending-embed",
         "fallbackUrl": "https://mba.wharton.upenn.edu/mba-guide/",
-        "fallbackLabel": "Explore the Wharton MBA Guide"
+        "fallbackLabel": "Explore the Wharton MBA Guide",
+        "image": {
+          "assetId": "take-next-step-form"
+        }
       },
       {
         "type": "callout",

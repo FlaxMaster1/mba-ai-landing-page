@@ -1,8 +1,9 @@
 ---
 import Heading from "@components/Heading.astro";
+import Image from "@components/Image.astro";
 import Container from "@utilities/Container.astro";
-interface Props {id:string;eyebrow?:string;heading:string;text:string;status?:"pending-embed"|"live";embedUrl?:string;fallbackUrl:string;fallbackLabel:string;}
-const {id,eyebrow,heading,text}=Astro.props;
+interface Props {id:string;eyebrow?:string;heading:string;text:string;status?:"pending-embed"|"live";embedUrl?:string;fallbackUrl:string;fallbackLabel:string;image?:any;}
+const {id,eyebrow,heading,text,image}=Astro.props;
 ---
 <section id={id} class="p-mba-pardot" aria-labelledby={id+"-heading"}>
   <Container>
@@ -12,7 +13,7 @@ const {id,eyebrow,heading,text}=Astro.props;
       <p>{text}</p>
     </div>
     <div class="p-mba-pardot__embed">
-      <p class="p-mba-pardot__placeholder">Pardot form embedded here</p>
+      {image ? <Image asset={image} class="p-mba-pardot__image" /> : <p class="p-mba-pardot__placeholder">Pardot form embedded here</p>}
     </div>
   </Container>
 </section>
