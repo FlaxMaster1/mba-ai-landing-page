@@ -39,6 +39,8 @@
   .p-callout__layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: var(--space-8); }
   .p-callout__media { aspect-ratio: 4 / 3; overflow: hidden; }
   .p-callout__media img { width: 100%; height: 100%; object-fit: cover; }
+  #closing .u-container { text-align: center; }
+  #closing .c-button { margin-inline: auto; }
   @media (max-width: 48rem) { .p-page-intro__layout, .p-callout__layout { grid-template-columns: 1fr; } }
   .p-card-grid, .p-story-collection, .p-stats-group { display: grid; gap: 0.9375rem; }
   .p-card-grid--promotional { gap: 0.25rem; }
