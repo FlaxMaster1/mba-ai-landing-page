@@ -33,6 +33,10 @@
 
   .p-page-intro { padding-block: var(--layout-section); }
   .p-page-intro .u-container { display: grid; gap: var(--space-6); }
+  .p-page-intro__layout { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: var(--space-8) !important; }
+  .p-page-intro__media { aspect-ratio: 4 / 3; overflow: hidden; }
+  .p-page-intro__media img { width: 100%; height: 100%; object-fit: cover; }
+  @media (max-width: 48rem) { .p-page-intro__layout { grid-template-columns: 1fr; } }
   .p-card-grid, .p-story-collection, .p-stats-group { display: grid; gap: 0.9375rem; }
   .p-card-grid--promotional { gap: 0.25rem; }
   .p-feature-row { display: grid; gap: var(--space-8); align-items: center; }

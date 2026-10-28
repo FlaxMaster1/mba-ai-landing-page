@@ -133,7 +133,8 @@
         "id": "scale-agility",
         "eyebrow": "SCALE WITH THE INSTINCT TO MOVE",
         "heading": "A large institution. An entrepreneurial mindset.",
-        "text": "Wharton's scale connects MBA students to faculty expertise across disciplines and alumni across industries. Its agility brings emerging technologies into students' hands while they still matter. As the frontier changes, the learning experience can change with it."
+        "text": "Wharton's scale connects MBA students to faculty expertise across disciplines and alumni across industries. Its agility brings emerging technologies into students' hands while they still matter. As the frontier changes, the learning experience can change with it.",
+        "image": { "assetId": "scale-city" }
       },
       {
         "type": "cardGrid",

@@ -36,6 +36,7 @@ export const sectionSchema = z.discriminatedUnion("type", [
     type: z.literal("pageIntro"),
     heading: z.string().optional(),
     text: z.string().min(1),
+    image: imageReferenceSchema.optional(),
     actions: z.array(actionSchema).max(2).optional()
   }),
   baseSectionSchema.extend({

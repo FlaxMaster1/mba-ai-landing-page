@@ -97,7 +97,7 @@ function validateReferences(site: LoadedSite): void {
       if (!existsSync(markdownFile)) throw new Error(`${page.route} references missing Markdown content: ${page.contentId}`);
     }
     for (const section of page.sections) {
-      if (section.type === "hero" || section.type === "featureRow" || section.type === "mbaQuote") {
+      if (section.type === "hero" || section.type === "featureRow" || section.type === "mbaQuote" || section.type === "pageIntro") {
         if (section.image) requireIds([section.image.assetId], assetIds, "asset IDs", page.route);
       }
       if (section.type === "mbaMedia" && section.poster) requireIds([section.poster.assetId], assetIds, "asset IDs", page.route);
