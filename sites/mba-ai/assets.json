@@ -8,5 +8,10 @@
     "id": "learning-art",
     "file": "images/learning-art.svg",
     "alt": "Image placeholder"
+  },
+  {
+    "id": "roberts-headshot-placeholder",
+    "file": "images/roberts-headshot-placeholder.svg",
+    "alt": "Headshot placeholder for Michael Roberts"
   }
 ]

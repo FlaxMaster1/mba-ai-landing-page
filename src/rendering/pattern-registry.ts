@@ -1,3 +1,4 @@
+import MBAQuote from "@patterns/MBAQuote.astro";
 import Hero from "@patterns/Hero.astro";
 import PageIntro from "@patterns/PageIntro.astro";
 import CardGrid from "@patterns/CardGrid.astro";
@@ -16,6 +17,7 @@ import PardotEmbed from "@patterns/PardotEmbed.astro";
 import type { SectionConfig } from "@schemas/page";
 
 export const patternRegistry = {
+  mbaQuote: MBAQuote,
   hero: Hero,
   pageIntro: PageIntro,
   cardGrid: CardGrid,

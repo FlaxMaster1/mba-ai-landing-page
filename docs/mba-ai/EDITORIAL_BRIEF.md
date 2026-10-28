@@ -36,3 +36,6 @@ Closing: The advantage is what you do with AI.
 
 ## Guardrails
 No unsubstantiated competitor ranking. No investment outperformance/S&P 500 claim without audited calculation and legal review. No unverifiable hiring guarantees. Do not imply 65+ schoolwide AI courses are MBA-only. Do not expose unpublished email campaign copy in public deployment. No fake Pardot submission.
+
+## Roberts quote treatment
+The advantage section now uses a proposed first-person quote with a neutral headshot placeholder. This copy was adapted from the explainer, not transcribed from Roberts. The visible approval note must remain until Michael Roberts approves the exact wording. Replace the portrait placeholder with an approved headshot before final release.

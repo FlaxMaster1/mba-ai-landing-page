@@ -1,0 +1,28 @@
+---
+import type { Asset } from "@entities/index";
+import Heading from "@components/Heading.astro";
+import Image from "@components/Image.astro";
+import Container from "@utilities/Container.astro";
+interface Props {
+  id: string; eyebrow?: string; heading: string; quote: string;
+  attribution: string; role: string; approvalNote: string; image: Asset;
+}
+const { id, eyebrow, heading, quote, attribution, role, approvalNote, image } = Astro.props;
+---
+<section id={id} class="p-mba-quote" aria-labelledby={`${id}-heading`}>
+  <Container>
+    <Image asset={image} class="p-mba-quote__portrait" />
+    <div class="p-mba-quote__copy">
+      {eyebrow && <p class="c-eyebrow">{eyebrow}</p>}
+      <Heading as="h2" id={`${id}-heading`}>{heading}</Heading>
+      <figure class="p-mba-quote__quotation">
+        <blockquote aria-describedby={`${id}-approval`}><p>“{quote}”</p></blockquote>
+        <figcaption>
+          <strong>{attribution}</strong>
+          <span>{role}</span>
+          <small id={`${id}-approval`}>{approvalNote}</small>
+        </figcaption>
+      </figure>
+    </div>
+  </Container>
+</section>

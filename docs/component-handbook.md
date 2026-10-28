@@ -1134,3 +1134,7 @@ Whenever a reusable framework element or meaningful variant is added or changed,
 - an ADR when architecture changes
 
 A shared element is incomplete until both its implementation contract and its selection guidance are documented.
+
+## MBAQuote
+
+Site-specific editorial quote with a portrait on the left on desktop and above the text on mobile. Content belongs in the site JSON: heading, quote, attribution, role, image reference, and approvalNote. Render a semantic blockquote with figcaption; proposed wording must visibly state that it is pending approval. The image asset requires descriptive alternative text, including that it is a placeholder when applicable.

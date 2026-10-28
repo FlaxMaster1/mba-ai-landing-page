@@ -35,11 +35,17 @@
         ]
       },
       {
-        "type": "pageIntro",
+        "type": "mbaQuote",
         "id": "advantage",
         "eyebrow": "THE CASE FOR A WHARTON MBA",
         "heading": "Access to AI is universal. The ability to lead with it is not.",
-        "text": "When powerful tools are available to everyone, the differentiator is no longer access to information. It is how you frame the problem, apply business expertise, challenge the output, and take responsibility for the decision. Wharton's MBA develops the capabilities to do all four."
+        "quote": "AI can give you an answer. The real question is whether you know what to ask, how to challenge the result, and what to do next. At Wharton, we develop the business judgment to turn powerful tools into better decisions—and the leadership to take responsibility for them.",
+        "attribution": "Michael Roberts",
+        "role": "Vice Dean of the MBA Program",
+        "approvalNote": "Draft quote — pending Michael Roberts’ approval",
+        "image": {
+          "assetId": "roberts-headshot-placeholder"
+        }
       },
       {
         "type": "mbaMedia",

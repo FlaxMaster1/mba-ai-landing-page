@@ -20,6 +20,11 @@ const cardItemSchema = z.object({
 
 export const sectionSchema = z.discriminatedUnion("type", [
   baseSectionSchema.extend({
+    type: z.literal("mbaQuote"), heading: z.string().min(1), quote: z.string().min(1),
+    attribution: z.string().min(1), role: z.string().min(1), approvalNote: z.string().min(1),
+    image: imageReferenceSchema
+  }),
+  baseSectionSchema.extend({
     type: z.literal("hero"),
     heading: z.string().min(1),
     text: z.string().optional(),
