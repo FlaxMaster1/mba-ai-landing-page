@@ -3,7 +3,7 @@
  .p-mba-media{padding-block:clamp(3.5rem,7vw,6.5rem);background:#fff}
  .p-mba-media--original-film{background:#eef2f7}
  .p-mba-media__grid{display:grid;gap:clamp(2rem,5vw,4.5rem);align-items:center}
- .p-mba-media__screen{position:relative;min-block-size:240px;aspect-ratio:16/9;background:#011f5b;overflow:hidden}
+ .p-mba-media__screen{position:relative;min-block-size:0;min-inline-size:0;aspect-ratio:16/9;background:#011f5b;overflow:hidden}
  .p-mba-media__screen iframe{display:block;width:100%;height:100%;border:0;position:absolute;inset:0}
  .p-mba-media__poster,.p-mba-media__poster img{width:100%;height:100%;object-fit:cover}
  .p-mba-media__pending{position:absolute;inset:0;display:grid;align-content:center;justify-items:center;gap:.65rem;padding:1.75rem;text-align:center;background:linear-gradient(120deg,rgb(1 31 91/.35),rgb(1 31 91/.82));color:#fff}
