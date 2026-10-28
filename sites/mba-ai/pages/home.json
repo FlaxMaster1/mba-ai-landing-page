@@ -66,6 +66,27 @@
         }
       },
       {
+        "type": "learningCycle",
+        "id": "learning-cycle",
+        "eyebrow": "HOW WHARTON TEACHES DIFFERENTLY",
+        "heading": "Research. Industry. Classroom. Repeat.",
+        "text": "Wharton faculty do not operate in separate worlds as researchers, teachers, and practitioners. They bring questions from industry into research, test insights with executives, and carry new discoveries into the classroom. Students challenge those ideas, generating new questions for the next cycle.",
+        "stages": [
+          {
+            "label": "Research",
+            "description": "Discover what AI makes possible and where its limits matter."
+          },
+          {
+            "label": "Practice",
+            "description": "Work directly with organizations and executives confronting change."
+          },
+          {
+            "label": "Classroom",
+            "description": "Turn emerging insight into rigorous, applied learning."
+          }
+        ]
+      },
+      {
         "type": "cardGrid",
         "id": "what-sets-you-apart",
         "eyebrow": "THREE ESSENTIAL CAPABILITIES",
@@ -106,27 +127,6 @@
           "type": "text",
           "external": true
         }
-      },
-      {
-        "type": "learningCycle",
-        "id": "learning-cycle",
-        "eyebrow": "HOW WHARTON TEACHES DIFFERENTLY",
-        "heading": "Research. Industry. Classroom. Repeat.",
-        "text": "Wharton faculty do not operate in separate worlds as researchers, teachers, and practitioners. They bring questions from industry into research, test insights with executives, and carry new discoveries into the classroom. Students challenge those ideas, generating new questions for the next cycle.",
-        "stages": [
-          {
-            "label": "Research",
-            "description": "Discover what AI makes possible and where its limits matter."
-          },
-          {
-            "label": "Practice",
-            "description": "Work directly with organizations and executives confronting change."
-          },
-          {
-            "label": "Classroom",
-            "description": "Turn emerging insight into rigorous, applied learning."
-          }
-        ]
       },
       {
         "type": "pageIntro",
