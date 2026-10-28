@@ -1,0 +1,81 @@
+{
+  "program": [
+    {
+      "label": "Faculty",
+      "url": "https://faculty.wharton.upenn.edu/",
+      "external": true
+    },
+    {
+      "label": "Youth Program",
+      "url": "https://globalyouth.wharton.upenn.edu/",
+      "external": true
+    },
+    {
+      "label": "Undergrad",
+      "url": "https://undergrad.wharton.upenn.edu/",
+      "external": true
+    },
+    {
+      "label": "MBA",
+      "url": "https://mba.wharton.upenn.edu/",
+      "external": true
+    },
+    {
+      "label": "EMBA",
+      "url": "https://executivemba.wharton.upenn.edu/",
+      "external": true
+    },
+    {
+      "label": "PhD",
+      "url": "https://doctoral.wharton.upenn.edu/",
+      "external": true
+    },
+    {
+      "label": "Exec Ed",
+      "url": "https://executiveeducation.wharton.upenn.edu/",
+      "external": true
+    },
+    {
+      "label": "Wharton Online",
+      "url": "https://online.wharton.upenn.edu/",
+      "external": true
+    }
+  ],
+  "primary": [
+    {
+      "label": "The MBA Program",
+      "url": "https://mba.wharton.upenn.edu/",
+      "external": true
+    },
+    {
+      "label": "Academics",
+      "url": "https://mba.wharton.upenn.edu/academic-program/",
+      "external": true
+    },
+    {
+      "label": "Admissions",
+      "url": "https://mba.wharton.upenn.edu/admissions/",
+      "external": true
+    },
+    {
+      "label": "Student Life",
+      "url": "https://mba.wharton.upenn.edu/student-life/",
+      "external": true
+    },
+    {
+      "label": "Career Services",
+      "url": "https://mba.wharton.upenn.edu/career-management/",
+      "external": true
+    },
+    {
+      "label": "AI at Wharton",
+      "url": "/",
+      "active": true
+    },
+    {
+      "label": "Apply",
+      "url": "https://mba.wharton.upenn.edu/apply/",
+      "external": true
+    }
+  ]
+}
