@@ -2,7 +2,7 @@
  .p-mba-quote{padding-block:clamp(3.5rem,7vw,6.5rem);background:#fafafa}
  .p-mba-quote>.u-container{display:grid;gap:clamp(2rem,5vw,4.5rem);align-items:center}
  .p-mba-quote__portrait{margin:0;width:min(100%,16rem);justify-self:start}
- .p-mba-quote__portrait img{width:100%;aspect-ratio:4/5;object-fit:cover}
+ .p-mba-quote__portrait img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
  .p-mba-quote__copy{min-width:0;max-width:51rem}
  .p-mba-quote__copy .c-eyebrow{margin:0 0 1.25rem}
  .p-mba-quote__copy h2{margin:0 0 1.5rem;max-width:28ch}
