@@ -1,0 +1,32 @@
+---
+import type { Action, Asset } from "@entities/index";
+import Heading from "@components/Heading.astro";
+import Button from "@components/Button.astro";
+import Image from "@components/Image.astro";
+import Container from "@utilities/Container.astro";
+interface Props { id: string; eyebrow?: string; heading: string; text: string; kind: "original-film" | "alumni-film" | "student-film"; status: "planned" | "published"; duration?: string; embedUrl?: string; poster?: Asset; link?: Action; }
+const {id,eyebrow,heading,text,kind,status,duration,embedUrl,poster,link}=Astro.props;
+---
+<section id={id} class:list={["p-mba-media","p-mba-media--"+kind]} aria-labelledby={id+"-heading"}>
+  <Container>
+    <div class="p-mba-media__grid">
+      <div class="p-mba-media__screen">
+        {embedUrl ? (
+          <iframe src={embedUrl} title={heading} loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        ) : (
+          <>
+            {poster && <Image asset={poster} loading="lazy" class="p-mba-media__poster" />}
+            <div class="p-mba-media__pending"><span>Original film in production</span><small>Storyboard approved for development, final edit not yet supplied</small></div>
+          </>
+        )}
+      </div>
+      <div class="p-mba-media__copy">
+        {eyebrow && <p class="c-eyebrow">{eyebrow}</p>}
+        <Heading as="h2" id={id+"-heading"}>{heading}</Heading>
+        <p>{text}</p>
+        {duration && <p class="p-mba-media__meta">{duration} · {status === "published" ? "Featured alumnus" : "Editorial treatment"}</p>}
+        {link && <Button href={link.url} variant={link.type} external={link.external}>{link.label}</Button>}
+      </div>
+    </div>
+  </Container>
+</section>
