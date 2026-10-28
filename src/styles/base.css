@@ -1,42 +1,42 @@
 @layer base {
   @font-face {
     font-family: "Acumin Pro";
-    src: url("https://martechdev.wharton.upenn.edu/wp-content/plugins/martech-chupacabra/includes/fonts/acuminpro-regular-webfont.woff2") format("woff2");
+    src: url("/fonts/acuminpro-regular-webfont.woff2") format("woff2");
     font-display: swap;
   }
   @font-face {
     font-family: "Acumin Pro Bold";
-    src: url("https://martechdev.wharton.upenn.edu/wp-content/plugins/martech-chupacabra/includes/fonts/acuminpro-bold-webfont.woff2") format("woff2");
+    src: url("/fonts/acuminpro-bold-webfont.woff2") format("woff2");
     font-display: swap;
   }
   @font-face {
     font-family: "Acumin Pro Black";
-    src: url("https://martechdev.wharton.upenn.edu/wp-content/plugins/martech-chupacabra/includes/fonts/acuminpro-black-webfont.woff2") format("woff2");
+    src: url("/fonts/acuminpro-black-webfont.woff2") format("woff2");
     font-display: swap;
   }
   @font-face {
     font-family: "Acumin Pro Condensed";
-    src: url("https://martechdev.wharton.upenn.edu/wp-content/plugins/martech-chupacabra/includes/fonts/acuminprocond-regular-webfont.woff2") format("woff2");
+    src: url("/fonts/acuminprocond-regular-webfont.woff2") format("woff2");
     font-display: swap;
   }
   @font-face {
     font-family: "Acumin Pro Condensed Bold";
-    src: url("https://martechdev.wharton.upenn.edu/wp-content/plugins/martech-chupacabra/includes/fonts/acuminprocond-bold-webfont.woff2") format("woff2");
+    src: url("/fonts/acuminprocond-bold-webfont.woff2") format("woff2");
     font-display: swap;
   }
   @font-face {
     font-family: "Acumin Pro Condensed Black";
-    src: url("https://martechdev.wharton.upenn.edu/wp-content/plugins/martech-chupacabra/includes/fonts/acuminprocond-black-webfont.woff2") format("woff2");
+    src: url("/fonts/acuminprocond-black-webfont.woff2") format("woff2");
     font-display: swap;
   }
   @font-face {
     font-family: "Minion Pro";
-    src: url("https://martechdev.wharton.upenn.edu/wp-content/plugins/martech-chupacabra/includes/fonts/minionpro-regular-webfont.woff2") format("woff2");
+    src: url("/fonts/minionpro-regular-webfont.woff2") format("woff2");
     font-display: swap;
   }
   @font-face {
     font-family: "Minion Pro Bold";
-    src: url("https://martechdev.wharton.upenn.edu/wp-content/plugins/martech-chupacabra/includes/fonts/minionpro-bold-webfont.woff2") format("woff2");
+    src: url("/fonts/minionpro-bold-webfont.woff2") format("woff2");
     font-display: swap;
   }
 

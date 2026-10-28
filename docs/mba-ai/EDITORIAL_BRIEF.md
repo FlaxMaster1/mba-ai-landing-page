@@ -22,9 +22,9 @@ Institutional, confident, precise, premium. Shown through examples, not claims a
 - Student film about building with AI. Suggested subject: Hetvee Marviya WG'27, subject approval required.
 - Pardot/Account Engagement iframe embed URL, consent language, segmentation, and success-state configuration. Reference: https://mba.wharton.upenn.edu/mba-guide/
 - Review of selected alumni film and rights clearance.
-- Final Wharton-approved photographic hero; included abstract art is temporary.
+- Final Wharton-approved photographic hero; neutral gray image placeholders are temporary.
 - Optional published career outcome evidence and latest figures from Career Management.
-- Local Acumin and Minion WOFF2 subset from uploaded licensed ZIP archives. Brand SVGs are already included.
+- Local Acumin and Minion WOFF2 faces are now bundled from the uploaded licensed ZIPs. Brand SVGs are included; license records remain outside the served build.
 
 ## Proposed original film beats
 0–12 seconds: Everyone has access to AI. What sets leaders apart?

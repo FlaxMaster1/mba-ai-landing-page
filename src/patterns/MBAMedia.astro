@@ -2,10 +2,9 @@
 import type { Action, Asset } from "@entities/index";
 import Heading from "@components/Heading.astro";
 import Button from "@components/Button.astro";
-import Image from "@components/Image.astro";
 import Container from "@utilities/Container.astro";
 interface Props { id: string; eyebrow?: string; heading: string; text: string; kind: "original-film" | "alumni-film" | "student-film"; status: "planned" | "published"; duration?: string; embedUrl?: string; poster?: Asset; link?: Action; }
-const {id,eyebrow,heading,text,kind,status,duration,embedUrl,poster,link}=Astro.props;
+const {id,eyebrow,heading,text,kind,status,duration,embedUrl,link}=Astro.props;
 ---
 <section id={id} class:list={["p-mba-media","p-mba-media--"+kind]} aria-labelledby={id+"-heading"}>
   <Container>
@@ -15,8 +14,10 @@ const {id,eyebrow,heading,text,kind,status,duration,embedUrl,poster,link}=Astro.
           <iframe src={embedUrl} title={heading} loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         ) : (
           <>
-            {poster && <Image asset={poster} loading="lazy" class="p-mba-media__poster" />}
-            <div class="p-mba-media__pending"><span>Original film in production</span><small>Storyboard approved for development, final edit not yet supplied</small></div>
+            <div class="p-mba-media__pending" role="img" aria-label="Video placeholder: final film pending">
+              <button type="button" disabled aria-label="Play video (coming soon)">▶</button>
+              <span>Video placeholder</span>
+            </div>
           </>
         )}
       </div>

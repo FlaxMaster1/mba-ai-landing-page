@@ -1,9 +1,8 @@
 ---
 import Heading from "@components/Heading.astro";
 import Container from "@utilities/Container.astro";
-import Button from "@components/Button.astro";
 interface Props {id:string;eyebrow?:string;heading:string;text:string;status?:"pending-embed"|"live";embedUrl?:string;fallbackUrl:string;fallbackLabel:string;}
-const {id,eyebrow,heading,text,embedUrl,fallbackUrl,fallbackLabel}=Astro.props;
+const {id,eyebrow,heading,text}=Astro.props;
 ---
 <section id={id} class="p-mba-pardot" aria-labelledby={id+"-heading"}>
   <Container>
@@ -13,15 +12,7 @@ const {id,eyebrow,heading,text,embedUrl,fallbackUrl,fallbackLabel}=Astro.props;
       <p>{text}</p>
     </div>
     <div class="p-mba-pardot__embed">
-      {embedUrl ? (
-        <iframe src={embedUrl} title="Request information about the Wharton MBA" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-      ) : (
-        <div class="p-mba-pardot__placeholder">
-          <p class="p-mba-pardot__status">Salesforce Account Engagement (Pardot) form</p>
-          <p>Final embedded form will appear here. This preview does not collect or submit personal information.</p>
-          <Button href={fallbackUrl} variant="primary" external>{fallbackLabel}</Button>
-        </div>
-      )}
+      <p class="p-mba-pardot__placeholder">Pardot form embedded here</p>
     </div>
   </Container>
 </section>

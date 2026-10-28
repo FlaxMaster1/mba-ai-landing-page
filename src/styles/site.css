@@ -1,4 +1,10 @@
 @layer site {
+ /* Keep the temporary hero image visible as a neutral placeholder. */
+ #top.p-hero{grid-template-columns:minmax(0,1fr);min-block-size:0}
+ #top.p-hero::after{display:none}
+ #top .p-hero__media{position:relative;z-index:0;order:2;aspect-ratio:3/2;block-size:auto;max-inline-size:48rem;justify-self:center}
+ #top .p-hero__layout{min-inline-size:0}
+ @media(min-width:64rem){#top.p-hero{grid-template-columns:1fr 1fr;align-items:center}#top .p-hero__media{margin:2rem;inline-size:calc(100% - 4rem)}}
  :where([data-site-theme="old-theme"]) { --site-accent:var(--surface-brand-accent); }
  .p-mba-media{padding-block:clamp(3.5rem,7vw,6.5rem);background:#fff}
  .p-mba-media--original-film{background:#eef2f7}
@@ -6,8 +12,8 @@
  .p-mba-media__screen{position:relative;min-block-size:0;min-inline-size:0;aspect-ratio:16/9;background:#011f5b;overflow:hidden}
  .p-mba-media__screen iframe{display:block;width:100%;height:100%;border:0;position:absolute;inset:0}
  .p-mba-media__poster,.p-mba-media__poster img{width:100%;height:100%;object-fit:cover}
- .p-mba-media__pending{position:absolute;inset:0;display:grid;align-content:center;justify-items:center;gap:.65rem;padding:1.75rem;text-align:center;background:linear-gradient(120deg,rgb(1 31 91/.35),rgb(1 31 91/.82));color:#fff}
- .p-mba-media__pending::before{content:"▶";display:grid;place-items:center;width:3.5rem;height:3.5rem;border:2px solid currentColor;border-radius:50%;font-size:1.1rem;opacity:.78}
+ .p-mba-media__pending{position:absolute;inset:0;display:grid;align-content:center;justify-items:center;gap:.65rem;padding:1.75rem;text-align:center;background:#dedede;color:#555}
+ .p-mba-media__pending button{display:grid;place-items:center;width:3.5rem;height:3.5rem;border:2px solid #555;border-radius:50%;font-size:1.1rem;color:#555;background:transparent;opacity:1}
  .p-mba-media__pending span{font-family:var(--font-family-sans-condensed-bold);font-size:1.5rem}
  .p-mba-media__pending small{max-width:23rem;font-size:.85rem;line-height:1.4}
  .p-mba-media__copy{display:grid;gap:1.15rem}
