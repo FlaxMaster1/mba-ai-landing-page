@@ -7,12 +7,12 @@
   "institutionalBrand": {
     "homeUrl": "https://www.wharton.upenn.edu/",
     "headerLogo": {
-      "src": "https://martechdev.wharton.upenn.edu/wp-content/plugins/martech-chupacabra/includes/images/wharton-logo.svg",
+      "src": "/shared/logos/wharton-color.svg",
       "alt": "The Wharton School of the University of Pennsylvania"
     },
     "footerLogo": {
-      "src": "https://martechdev.wharton.upenn.edu/wp-content/plugins/martech-chupacabra/includes/images/penn-logo-white.svg",
-      "alt": "University of Pennsylvania"
+      "src": "/shared/logos/wharton-reverse.svg",
+      "alt": "The Wharton School of the University of Pennsylvania"
     }
   },
   "featureFlags": {

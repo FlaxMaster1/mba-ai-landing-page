@@ -9,7 +9,7 @@ export default defineConfig({
   adapter: isSitesBuild ? cloudflare({ prerenderEnvironment: "node" }) : undefined,
   output: isSitesBuild ? "server" : "static",
   site: isPagesBuild ? "https://flaxmaster1.github.io" : undefined,
-  base: isPagesBuild ? "/wharton-prototype-framework" : undefined,
+  base: isPagesBuild ? "/mba-ai-landing-page" : undefined,
   trailingSlash: "always",
   build: {
     format: "directory"
@@ -17,7 +17,7 @@ export default defineConfig({
   vite: {
     plugins: isSitesBuild ? [sites()] : [],
     define: {
-      "import.meta.env.SITE_ID": JSON.stringify(process.env.SITE ?? "reference")
+      "import.meta.env.SITE_ID": JSON.stringify(process.env.SITE ?? "mba-ai")
     }
   }
 });

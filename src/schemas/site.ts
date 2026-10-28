@@ -17,8 +17,8 @@ export const siteConfigSchema = z.object({
   institutionalBrand: z
     .object({
       homeUrl: z.url(),
-      headerLogo: z.object({ src: z.url(), alt: z.string().min(1) }),
-      footerLogo: z.object({ src: z.url(), alt: z.string().min(1) })
+      headerLogo: z.object({ src: z.string().min(1), alt: z.string().min(1) }),
+      footerLogo: z.object({ src: z.string().min(1), alt: z.string().min(1) })
     })
     .optional(),
   featureFlags: featureFlagsSchema.default({ search: true, mobileNavigation: true, themePreview: false }),

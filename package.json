@@ -1,5 +1,5 @@
 {
-  "name": "wharton-web-prototype-framework",
+  "name": "wharton-mba-ai-landing-page",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -21,7 +21,7 @@
     "prebuild:reference": "npm run generate:tokens",
     "build:reference": "SITE=reference astro build",
     "prebuild:pages": "npm run generate:tokens",
-    "build:pages": "SITE=reference PAGES_BUILD=true astro build",
+    "build:pages": "SITE=mba-ai PAGES_BUILD=true astro build",
     "prebuild:sites": "npm run generate:tokens",
     "build:sites": "SITE=reference SITES_BUILD=true astro build",
     "postbuild:sites": "node scripts/prepare-sites-build.mjs",
@@ -40,7 +40,11 @@
     "test:visual:update": "npm run build:reference && playwright test tests/visual --update-snapshots",
     "test:e2e:update": "playwright test --update-snapshots",
     "validate": "npm run content:validate && npm run check && npm run test:unit && npm run test:theme-preview && npm run build:reference && npm run audit:build && npm run test:e2e:built",
-    "validate:complete": "npm run validate && npm run audit:dependencies"
+    "validate:complete": "npm run validate && npm run audit:dependencies",
+    "predev:mba": "npm run generate:tokens",
+    "dev:mba": "SITE=mba-ai astro dev",
+    "prebuild:mba": "npm run generate:tokens",
+    "build:mba": "SITE=mba-ai astro build"
   },
   "dependencies": {
     "astro": "7.2.2",
