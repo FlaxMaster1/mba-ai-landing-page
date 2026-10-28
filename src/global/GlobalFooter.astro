@@ -1,4 +1,5 @@
 ---
+import { siteUrl } from "@rendering/site-url";
 import type { LoadedSite } from "@rendering/site-loader";
 interface Props { site: LoadedSite; }
 const { site } = Astro.props;
@@ -14,7 +15,7 @@ const { site } = Astro.props;
     </details>
     {site.config.institutionalBrand && (
       <a class="g-global-footer__brand" href={site.config.institutionalBrand.homeUrl}>
-        <img src={site.config.institutionalBrand.footerLogo.src} alt={site.config.institutionalBrand.footerLogo.alt} width="147" height="41" />
+        <img src={siteUrl(site.config.institutionalBrand.footerLogo.src)} alt={site.config.institutionalBrand.footerLogo.alt} width="147" height="41" />
       </a>
     )}
     <div class="g-global-footer__legal">

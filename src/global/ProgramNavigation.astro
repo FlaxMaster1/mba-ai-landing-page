@@ -1,4 +1,5 @@
 ---
+import { siteUrl } from "@rendering/site-url";
 import type { NavigationItem } from "@entities/index";
 interface Props { items: NavigationItem[]; label: string; }
 const { items, label } = Astro.props;
@@ -15,7 +16,7 @@ const { items, label } = Astro.props;
         rel={item.external ? "noreferrer" : undefined}
       >
         {item.logo
-          ? <img class="g-program-navigation__logo" src={item.logo.src} alt="" width={item.logo.width} height={item.logo.height} />
+          ? <img class="g-program-navigation__logo" src={siteUrl(item.logo.src)} alt="" width={item.logo.width} height={item.logo.height} />
           : item.label}
       </a>
     </li>

@@ -1,6 +1,12 @@
-# Private review
+# Website preview
 
-The GitHub repository URL displays source code, not a running website. PR #1 remains a draft in a private repository. No hosting or deployment has been enabled by this update.
+The owner requested public GitHub Pages hosting on October 28, 2026 after changing the repository visibility to public.
+
+Website: https://flaxmaster1.github.io/mba-ai-landing-page/
+
+The `Publish MBA AI website` workflow builds and publishes `codex/mba-ai-landing-build` on each push. PR #1 remains a draft; deployment does not merge it. The website is publicly viewable without a password. The GitHub repository URL displays source files, not the rendered website.
+
+Only `dist/` is uploaded to Pages. Full font ZIPs and license records are excluded from the website build; the selected webfonts are delivered to site visitors. Because the owner made the repository public, committed files under `private/` are accessible as source despite that directory name.
 
 ## On this computer
 
@@ -10,9 +16,7 @@ The current review session starts the built preview on that loopback address. If
 
 ## Other reviewers
 
-The existing Actions workflow saves the built site as a private artifact named `wharton-mba-ai-prototype`. Authorized GitHub collaborators can download and unzip it, then serve that directory locally. This download is a build artifact, not a live website.
-
-A remote preview requires an owner-approved hosting account with verified authentication/access restrictions before uploading private content or fonts. Public GitHub Pages, public preview links, and public tunnels have not been enabled. Repository privacy alone does not establish hosting privacy.
+Share the website URL above. Reviewers need no GitHub account and no local server. For password protection, move to authenticated hosting; this GitHub Pages deployment is public.
 
 ## Placeholder scope and remaining requirements
 

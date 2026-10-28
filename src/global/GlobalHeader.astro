@@ -1,4 +1,5 @@
 ---
+import { siteUrl } from "@rendering/site-url";
 import type { LoadedSite } from "@rendering/site-loader";
 import GlobalSearch from "./GlobalSearch.astro";
 import MobileNavigation from "./MobileNavigation.astro";
@@ -13,7 +14,7 @@ const ui = site.config.ui;
     <div class="u-container g-global-header__program-inner">
       {site.config.institutionalBrand && (
         <a class="g-global-header__brand" href={site.config.institutionalBrand.homeUrl}>
-          <img src={site.config.institutionalBrand.headerLogo.src} alt={site.config.institutionalBrand.headerLogo.alt} width="120" height="30" />
+          <img src={siteUrl(site.config.institutionalBrand.headerLogo.src)} alt={site.config.institutionalBrand.headerLogo.alt} width="120" height="30" />
         </a>
       )}
       <ProgramNavigation items={site.navigation.program} label={ui.programNavigationLabel} />
