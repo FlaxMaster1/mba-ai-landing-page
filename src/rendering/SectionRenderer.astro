@@ -12,6 +12,9 @@ let properties: Record<string, unknown> = { ...section };
 if (section.type === "hero" || section.type === "featureRow") {
   properties = { ...section, image: section.image ? resolveAsset(site, section.image.assetId) : undefined };
 }
+if (section.type === "mbaMedia") {
+  properties = { ...section, poster: section.poster ? resolveAsset(site, section.poster.assetId) : undefined };
+}
 if (section.type === "cardGrid") {
   properties = { ...section, items: section.items.map((item) => ({ ...item, image: item.image ? resolveAsset(site, item.image.assetId) : undefined })) };
 }

@@ -10,6 +10,9 @@ import StoryCollection from "@patterns/StoryCollection.astro";
 import EventList from "@patterns/EventList.astro";
 import PersonList from "@patterns/PersonList.astro";
 import Form from "@patterns/Form.astro";
+import MBAMedia from "@patterns/MBAMedia.astro";
+import LearningCycle from "@patterns/LearningCycle.astro";
+import PardotEmbed from "@patterns/PardotEmbed.astro";
 import type { SectionConfig } from "@schemas/page";
 
 export const patternRegistry = {
@@ -24,7 +27,10 @@ export const patternRegistry = {
   storyCollection: StoryCollection,
   eventList: EventList,
   personList: PersonList,
-  form: Form
+  form: Form,
+  mbaMedia: MBAMedia,
+  learningCycle: LearningCycle,
+  pardotEmbed: PardotEmbed
 } satisfies Record<SectionConfig["type"], unknown>;
 
 export function resolvePattern(type: SectionConfig["type"]) {

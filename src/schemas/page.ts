@@ -103,6 +103,19 @@ export const sectionSchema = z.discriminatedUnion("type", [
         hint: z.string().optional()
       })
     ).min(1)
+  }),
+  baseSectionSchema.extend({
+    type: z.literal("mbaMedia"), heading:z.string().min(1), text:z.string().min(1),
+    kind:z.enum(["original-film","alumni-film","student-film"]), status:z.enum(["planned","published"]),
+    duration:z.string().optional(), embedUrl:z.url().optional(), poster:imageReferenceSchema.optional(),link:actionSchema.optional()
+  }),
+  baseSectionSchema.extend({
+    type:z.literal("learningCycle"),heading:z.string().min(1),text:z.string().min(1),
+    stages:z.array(z.object({label:z.string().min(1),description:z.string().min(1)})).min(3).max(3)
+  }),
+  baseSectionSchema.extend({
+    type:z.literal("pardotEmbed"), heading:z.string().min(1),text:z.string().min(1),
+    status:z.enum(["pending-embed","live"]),embedUrl:z.url().optional(),fallbackUrl:z.url(),fallbackLabel:z.string().min(1)
   })
 ]);
 
