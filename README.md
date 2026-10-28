@@ -1,0 +1,1 @@
+# mba-ai-landing-page
