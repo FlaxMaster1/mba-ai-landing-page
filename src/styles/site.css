@@ -1,0 +1,3 @@
+@layer site {
+  :where([data-site-theme="old-theme"]) { --site-accent: var(--surface-brand-accent); }
+}
