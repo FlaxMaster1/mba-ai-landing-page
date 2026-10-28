@@ -11,8 +11,44 @@ const { id, eyebrow, heading, items, columns = 3, variant = "promotional" } = As
   <Container>
     {eyebrow && <p class="c-eyebrow">{eyebrow}</p>}
     {heading && <Heading as="h2" id={`${id}-heading`}>{heading}</Heading>}
-    <div class:list={["p-card-grid", `p-card-grid--${variant}`]} style={`--grid-columns: ${columns}`}>
-      {items.map((item) => <Card {...item} {variant} />)}
-    </div>
+    {id === "what-sets-you-apart" ? (
+      <div class="p-card-grid p-capability-grid" style={`--grid-columns: ${columns}`}>
+        {items.map((item, index) => {
+          const label = item.eyebrow?.replace(/^\d+\s*\/\s*/, "") ?? "";
+          const number = String(index + 1).padStart(2, "0");
+          return (
+            <article class="p-capability-card">
+              <button type="button" class="p-capability-card__button" aria-pressed="false" aria-label={`${number}, ${label}, ${item.title}. ${item.description ?? ""} Show or hide details.`}>
+                <span class="p-capability-card__inner" aria-hidden="true">
+                  <span class="p-capability-card__face p-capability-card__front">
+                    <span class="p-capability-card__number">{number}</span>
+                    <span class="p-capability-card__eyebrow">{label}</span>
+                    <span class="p-capability-card__title">{item.title}</span>
+                    <span class="p-capability-card__hint">Explore <span aria-hidden="true">↗</span></span>
+                  </span>
+                  <span class="p-capability-card__face p-capability-card__back">
+                    <span class="p-capability-card__eyebrow">{label}</span>
+                    <span class="p-capability-card__title">{item.title}</span>
+                    <span class="p-capability-card__description">{item.description}</span>
+                  </span>
+                </span>
+              </button>
+            </article>
+          );
+        })}
+      </div>
+    ) : (
+      <div class:list={["p-card-grid", `p-card-grid--${variant}`]} style={`--grid-columns: ${columns}`}>
+        {items.map((item) => <Card {...item} {variant} />)}
+      </div>
+    )}
   </Container>
 </section>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>(".p-capability-card__button").forEach((button) => {
+    button.addEventListener("click", () => {
+      button.setAttribute("aria-pressed", String(button.getAttribute("aria-pressed") !== "true"));
+    });
+  });
+</script>
