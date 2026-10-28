@@ -54,7 +54,7 @@
           "assetId": "learning-art"
         },
         "link": {
-          "label": "Read Michael Roberts' perspective on the Wharton AI Advantage",
+          "label": "Explore Wharton's schoolwide AI Advantage",
           "url": "https://www.wharton.upenn.edu/ai-advantage/",
           "type": "text"
         }
@@ -96,7 +96,7 @@
         "mediaPosition": "end",
         "action": {
           "label": "Explore the MBA curriculum",
-          "url": "https://mba.wharton.upenn.edu/academic-program/",
+          "url": "https://mba.wharton.upenn.edu/mba-curriculum/",
           "type": "text",
           "external": true
         }
@@ -165,7 +165,7 @@
             "description": "The Artificial Intelligence for Business major connects technical understanding with the economic, strategic, ethical, and organizational questions that shape business decisions.",
             "action": {
               "label": "Explore the AI curriculum",
-              "url": "https://www.wharton.upenn.edu/ai-advantage/",
+              "url": "https://mba.wharton.upenn.edu/mba-majors/",
               "type": "text",
               "external": true
             }
@@ -217,7 +217,7 @@
         "text": "An MBA is an investment in what you can contribute over the course of a career: the problems you're equipped to solve, the people you're prepared to lead, and the community you can continue to learn from. Those are advantages designed to compound.",
         "action": {
           "label": "Explore the value of a Wharton MBA",
-          "url": "https://mba.wharton.upenn.edu/",
+          "url": "https://mba.wharton.upenn.edu/whats-possible-with-a-wharton-mba/",
           "type": "secondary",
           "external": true
         },
