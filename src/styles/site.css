@@ -44,5 +44,6 @@
  .p-mba-pardot__placeholder .c-button{justify-self:start}
  .p-mba-media__screen:focus-within{outline:3px solid #2FB6F2;outline-offset:4px}
  @media(min-width:52rem){.p-mba-media__grid{grid-template-columns:1.18fr .82fr}.p-mba-cycle__steps{grid-template-columns:repeat(3,minmax(0,1fr))}.p-mba-pardot>.u-container{grid-template-columns:.9fr 1.1fr;align-items:start}}
+ @media(min-width:52rem){#alumni-story .p-mba-media__grid{grid-template-columns:.82fr 1.18fr}#alumni-story .p-mba-media__copy{order:-1}}
  @media(max-width:51.99rem){.p-mba-cycle__intro{text-align:left}.p-mba-pardot__embed{padding:1.5rem}}
 }
