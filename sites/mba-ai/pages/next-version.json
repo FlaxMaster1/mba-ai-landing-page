@@ -2,12 +2,12 @@
   {
     "route": "/next-version/",
     "template": "landing",
-    "title": "Learn to Build with AI at Wharton.",
+    "title": "Where AI Meets Wharton Expertise.",
     "titleMode": "hero",
     "width": "full-window",
     "sidebar": "none",
     "seo": {
-      "title": "Learn to Build with AI at Wharton.",
+      "title": "Where AI Meets Wharton Expertise.",
       "description": "Explore AI learning in the Wharton MBA: faculty research, school-supported tools, practical workshops, an AI major, and student projects."
     },
     "sections": [
@@ -15,7 +15,7 @@
         "type": "hero",
         "id": "top",
         "eyebrow": "THE WHARTON MBA · AI AND LEADERSHIP",
-        "heading": "Learn to Build with AI at Wharton.",
+        "heading": "Where AI Meets Wharton Expertise.",
         "text": "Start with AI foundations. Build practical solutions. Learn from faculty whose research and work with industry help shape how AI is understood and applied in business.",
         "image": {
           "assetId": "hero-art"
