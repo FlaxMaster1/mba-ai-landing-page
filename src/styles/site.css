@@ -134,3 +134,9 @@
  .t-page-content:has(> #sources) > #sources { background: #011f5b; color: #fff; }
  #sources :is(.c-eyebrow, h2, .c-button--text) { color: #fff; }
 }
+
+@layer site {
+ #sources .c-button--secondary { color: #fff; border-color: #fff; }
+ #sources .c-button--secondary:hover { color: #011f5b; background: #fff; }
+ #sources .c-button:focus-visible { outline: 3px solid #fff; outline-offset: 4px; }
+}
