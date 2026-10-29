@@ -63,5 +63,10 @@
     "id": "mba-guide-form-preview",
     "file": "images/mba-guide-form-preview.png",
     "alt": "Placeholder preview of the Wharton MBA Guide request form. This image is not an interactive form."
+  },
+  {
+    "id": "mba-students-form-background",
+    "file": "images/mba-students-form-background.jpg",
+    "alt": "MBA students walking on Locust Walk."
   }
 ]

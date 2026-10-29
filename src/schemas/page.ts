@@ -122,7 +122,7 @@ export const sectionSchema = z.discriminatedUnion("type", [
     stages:z.array(z.object({label:z.string().min(1),description:z.string().min(1)})).min(3).max(3)
   }),
   baseSectionSchema.extend({
-    type:z.literal("pardotEmbed"), heading:z.string().min(1),text:z.string().min(1), image:imageReferenceSchema.optional(),
+    type:z.literal("pardotEmbed"), heading:z.string().min(1),text:z.string().min(1), image:imageReferenceSchema.optional(), backgroundImage:imageReferenceSchema.optional(),
     status:z.enum(["pending-embed","live"]),embedUrl:z.url().optional(),fallbackUrl:z.url(),fallbackLabel:z.string().min(1)
   })
 ]);

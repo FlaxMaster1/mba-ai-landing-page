@@ -25,3 +25,7 @@ The owner selected the proposed wording beginning “As AI becomes more capable,
 ## Final Take the Next Step row
 
 Owner requested a form-image placeholder and supplied a screenshot. The revised page’s final body section is now `request-information`, using the Pardot pattern and the unchanged supplied image. Display slot: 509 × 739 px at desktop, scaling proportionally down on smaller screens. Source bitmap is 509 × 740 px; object-fit contains it without cropping. This is an image placeholder, not a live form. Original homepage content and form styling remain unchanged.
+
+## Final-row background
+
+Uses the owner-supplied Locust Walk student photo unchanged, with a CSS black overlay at exactly 10% opacity. The overlay applies to the background only. A translucent white copy panel preserves readability without darkening the photo beyond the requested overlay. The 509 × 739 form-placeholder slot and final-row order remain unchanged.
