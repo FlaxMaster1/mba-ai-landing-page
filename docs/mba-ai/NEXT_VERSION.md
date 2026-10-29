@@ -17,3 +17,7 @@ Every next-version section now addresses AI education, research, or application.
 Removed general MBA ROI and alumni-help anecdotes rather than imply those examples concerned AI. Replaced them with externally sourced AI & Analytics Accelerator project examples and two faculty-research links. Research summaries are independently sourced, not attributed to Roberts, and are not described as proven MBA learning outcomes.
 
 Additional sources checked October 29: https://knowledge.wharton.upenn.edu/article/when-does-ai-assistance-undermine-learning/ (chess study; not an MBA classroom experiment); https://knowledge.wharton.upenn.edu/special-report/2025-wharton-accenture-skills-gap-index/; https://ai-analytics.wharton.upenn.edu/for-students/ai-analytics-accelerator/ (Fall 2026 projects; participation is selected, not guaranteed). Metrics retain schoolwide scope; verified count/date remain in the audit ledger.
+
+## Roberts quote revision
+
+The owner selected the proposed wording beginning “As AI becomes more capable, the deeper question is what we ask of ourselves.” This replaces the verbatim building-solutions excerpt in the next-version page. The new wording is an adaptation of interview themes, not a transcript quotation or an independently verified assertion of Michael Roberts’ exact words. Keep the visible proposed-quote / pending-approval note until Michael approves the exact wording. The owner’s selection is editorial direction, not evidence of speaker approval.
