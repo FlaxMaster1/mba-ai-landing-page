@@ -286,19 +286,6 @@
         ]
       },
       {
-        "type": "callout",
-        "id": "closing",
-        "heading": "What will you build with AI?",
-        "text": "Explore an MBA that brings AI learning together with business expertise.",
-        "action": {
-          "label": "Explore the Wharton MBA",
-          "url": "https://mba.wharton.upenn.edu/",
-          "type": "primary",
-          "external": true
-        },
-        "surface": "subtle"
-      },
-      {
         "type": "pardotEmbed",
         "id": "request-information",
         "eyebrow": "TAKE THE NEXT STEP",
