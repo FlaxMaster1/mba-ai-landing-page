@@ -81,3 +81,21 @@
  @media(min-width:52rem){#alumni-story .p-mba-media__grid{grid-template-columns:.82fr 1.18fr}#alumni-story .p-mba-media__copy{order:-1}}
  @media(max-width:51.99rem){.p-mba-cycle__intro{text-align:left}.p-mba-pardot__embed{padding:0}}
 }
+
+
+/* Schoolwide AI and analytics figures on the MBA landing page. */
+@layer site {
+  #by-the-numbers { background: #f2f2f2; padding-block: clamp(3rem, 5vw, 5rem); }
+  #by-the-numbers h2 { font-family: var(--font-family-serif); margin: 0 0 .75rem; }
+  #by-the-numbers .p-stats-group__intro { margin: 0 0 2rem; }
+  #by-the-numbers .p-stats-group { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+  #by-the-numbers .c-stat { background: #fff; border-inline-start: 4px solid #990000; padding: 1.75rem; min-width: 0; }
+  #by-the-numbers .c-stat__value { color: #990000; font-family: var(--font-family-serif); font-size: clamp(3.5rem, 5vw, 4.5rem); margin: 0 0 1rem; }
+  #by-the-numbers .c-stat__label { margin: 0; line-height: 1.45; }
+  @media (min-width: 42rem) {
+    #by-the-numbers .p-stats-group { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (min-width: 70rem) {
+    #by-the-numbers .p-stats-group { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  }
+}

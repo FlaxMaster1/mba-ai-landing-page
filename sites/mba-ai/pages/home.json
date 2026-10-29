@@ -35,6 +35,30 @@
         ]
       },
       {
+        "type": "statsGroup",
+        "id": "by-the-numbers",
+        "heading": "By the Numbers",
+        "text": "AI and analytics across the Wharton School.",
+        "items": [
+          {
+            "value": "90+",
+            "label": "AI and Analytics Affiliated Faculty"
+          },
+          {
+            "value": "65+",
+            "label": "AI and Analytics Courses Across Degree Programs"
+          },
+          {
+            "value": "10",
+            "label": "AI and Analytics Executive Education Programs"
+          },
+          {
+            "value": "9",
+            "label": "AI and Analytics Research Centers and Labs"
+          }
+        ]
+      },
+      {
         "type": "mbaQuote",
         "id": "advantage",
         "eyebrow": "THE CASE FOR A WHARTON MBA",

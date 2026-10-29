@@ -65,6 +65,7 @@ export const sectionSchema = z.discriminatedUnion("type", [
   baseSectionSchema.extend({
     type: z.literal("statsGroup"),
     heading: z.string().optional(),
+    text: z.string().optional(),
     items: z.array(z.object({ value: z.string().min(1), label: z.string().min(1), detail: z.string().optional() })).min(1)
   }),
   baseSectionSchema.extend({
