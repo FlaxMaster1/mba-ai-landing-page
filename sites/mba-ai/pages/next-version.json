@@ -309,7 +309,10 @@
         },
         "status": "pending-embed",
         "fallbackUrl": "https://mba.wharton.upenn.edu/mba-guide/",
-        "fallbackLabel": "Request the Wharton MBA Guide"
+        "fallbackLabel": "Request the Wharton MBA Guide",
+        "backgroundImage": {
+          "assetId": "mba-students-form-background"
+        }
       }
     ]
   }

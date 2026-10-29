@@ -110,3 +110,8 @@
   .p-mba-pardot--form-preview > .u-container { grid-template-columns: minmax(0, 1fr) 509px; align-items: center; }
  }
 }
+
+@layer site {
+ .p-mba-pardot--photo { background-size: cover; background-position: center; background-repeat: no-repeat; }
+ .p-mba-pardot--photo .p-mba-pardot__copy { background: rgb(255 255 255 / 94%); padding: clamp(1.5rem, 3vw, 2.5rem); }
+}
