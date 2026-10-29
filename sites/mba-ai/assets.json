@@ -58,5 +58,10 @@
     "id": "take-next-step-form",
     "file": "images/take-next-step-form.png",
     "alt": "Wharton MBA information request form"
+  },
+  {
+    "id": "mba-guide-form-preview",
+    "file": "images/mba-guide-form-preview.png",
+    "alt": "Placeholder preview of the Wharton MBA Guide request form. This image is not an interactive form."
   }
 ]
