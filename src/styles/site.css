@@ -125,3 +125,7 @@
   .t-page-content:has(> #sources) > :is(#long-term-value, #sources) > .u-container { inline-size: calc(100% - clamp(4rem, 8vw, 8rem)); }
  }
 }
+
+@layer site {
+ .t-page-content:has(> #sources) > #student-builder { padding-block-end: 158px; margin-block-end: 0; }
+}
