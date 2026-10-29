@@ -20,19 +20,7 @@
         "image": {
           "assetId": "hero-art"
         },
-        "variant": "media",
-        "actions": [
-          {
-            "label": "Explore the Wharton advantage",
-            "url": "#advantage",
-            "type": "primary"
-          },
-          {
-            "label": "See how we teach",
-            "url": "#learning-cycle",
-            "type": "secondary"
-          }
-        ]
+        "variant": "media"
       },
       {
         "type": "statsGroup",
