@@ -2,12 +2,12 @@
   {
     "route": "/",
     "template": "landing",
-    "title": "The Advantage Is What You Do With AI",
+    "title": "Wharton MBA Advantage: Built for What Comes Next",
     "titleMode": "hero",
     "width": "full-window",
     "sidebar": "none",
     "seo": {
-      "title": "AI at Wharton MBA | The Advantage Is What You Do With AI",
+      "title": "Wharton MBA Advantage: Built for What Comes Next",
       "description": "Discover how Wharton's MBA develops leaders who combine AI fluency with rigorous business judgment, research, and practice."
     },
     "sections": [
@@ -15,7 +15,7 @@
         "type": "hero",
         "id": "top",
         "eyebrow": "THE WHARTON MBA \u00b7 AI AND LEADERSHIP",
-        "heading": "The Advantage Is What You Do With AI.",
+        "heading": "Wharton MBA Advantage: Built for What Comes Next",
         "text": "AI is changing the work. Wharton prepares you to rethink how work gets done, build what comes next, and lead with judgment.",
         "image": {
           "assetId": "hero-art"
