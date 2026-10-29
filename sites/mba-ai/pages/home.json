@@ -232,26 +232,6 @@
         }
       },
       {
-        "type": "mbaMedia",
-        "id": "alumni-story",
-        "eyebrow": "THE IMPACT CONTINUES",
-        "heading": "An education that keeps opening doors.",
-        "text": "Erika Lawrence, WG'23, describes how the Wharton MBA expanded her career ambitions and connected her to a global community. This published alumni video provides the graduate's perspective on long-term value, complementing Roberts' argument for the degree.",
-        "kind": "alumni-film",
-        "status": "published",
-        "duration": "Alumni perspective",
-        "embedUrl": "https://www.youtube-nocookie.com/embed/5_vWqZsWzsQ",
-        "poster": {
-          "assetId": "learning-art"
-        },
-        "link": {
-          "label": "Explore more Wharton MBA impact stories",
-          "url": "https://mba.wharton.upenn.edu/whats-possible-with-a-wharton-mba/",
-          "type": "text",
-          "external": true
-        }
-      },
-      {
         "type": "callout",
         "id": "long-term-value",
         "eyebrow": "BEYOND THE FIRST ROLE",
