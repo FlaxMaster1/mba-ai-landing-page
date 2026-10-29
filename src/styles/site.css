@@ -129,3 +129,8 @@
 @layer site {
  .t-page-content:has(> #sources) > #student-builder { padding-block-end: 158px; margin-block-end: 0; }
 }
+
+@layer site {
+ .t-page-content:has(> #sources) > #sources { background: #011f5b; color: #fff; }
+ #sources :is(.c-eyebrow, h2, .c-button--text) { color: #fff; }
+}
