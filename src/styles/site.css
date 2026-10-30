@@ -161,3 +161,12 @@
   .t-page-content:has(> #sources) > #top .p-hero__media { aspect-ratio: 968 / 1024; }
  }
 }
+
+/* Layer mobile hero copy over the portrait's open upper area. */
+@layer site {
+ @media (max-width: 63.999rem) {
+  .t-page-content:has(> #sources) > #top { display: block; }
+  .t-page-content:has(> #sources) > #top .p-hero__media { position: absolute; inset: auto 0 0; block-size: auto; z-index: 0; }
+  .t-page-content:has(> #sources) > #top .p-hero__layout { z-index: 1; padding-block-end: calc(48vw + 2rem); }
+ }
+}
