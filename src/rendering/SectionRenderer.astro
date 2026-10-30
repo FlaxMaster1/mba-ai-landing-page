@@ -15,7 +15,7 @@ if (section.type === "hero" || section.type === "featureRow" || section.type ===
 if (section.type === "hero") {
   properties.mobileImage = section.mobileImage ? resolveAsset(site, section.mobileImage.assetId) : undefined;
 }
-if (section.type === "learningCycle") {
+if (section.type === "learningCycle" || section.type === "pageIntro") {
   properties.backgroundImage = section.backgroundImage ? resolveAsset(site, section.backgroundImage.assetId) : undefined;
 }
 if (section.type === "mbaMedia") {

@@ -264,3 +264,8 @@
  .t-page-content :is(.p-mba-media__copy, .p-callout__content, .p-feature-row__content) > .c-button { align-self: flex-start; margin: 0; }
  .t-page-content .p-mba-quote__copy > h2:last-child { margin-block-end: 0; }
 }
+
+/* Explore Wharton's AI Capabilities: balanced line breaks, no single-word last line. */
+@layer site {
+ .t-page-content > #sources .p-page-intro__lead { max-inline-size: 46rem; margin-inline: auto; text-wrap: balance; }
+}

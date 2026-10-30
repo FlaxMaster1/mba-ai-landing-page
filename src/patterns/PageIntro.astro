@@ -1,13 +1,15 @@
 ---
 import type { Action, Asset } from "@entities/index";
 import Button from "@components/Button.astro";
+import { siteUrl } from "@rendering/site-url";
 import Heading from "@components/Heading.astro";
 import Image from "@components/Image.astro";
 import Container from "@utilities/Container.astro";
-interface Props { id: string; eyebrow?: string; heading?: string; text: string; actions?: Action[]; image?: Asset; }
-const { id, eyebrow, heading, text, actions = [], image } = Astro.props;
+interface Props { id: string; eyebrow?: string; heading?: string; text: string; actions?: Action[]; image?: Asset; backgroundImage?: Asset; }
+const { id, eyebrow, heading, text, actions = [], image, backgroundImage } = Astro.props;
+const backgroundStyle = backgroundImage ? `background-image: url("${siteUrl(backgroundImage.src)}"); background-size: cover; background-position: center; background-repeat: no-repeat;` : undefined;
 ---
-<section id={id} class="p-page-intro" aria-labelledby={heading ? `${id}-heading` : undefined}>
+<section id={id} class="p-page-intro" style={backgroundStyle} aria-labelledby={heading ? `${id}-heading` : undefined}>
   <Container class={image ? "p-page-intro__layout" : undefined}>
     {image && <Image asset={image} class="p-page-intro__media" />}
     <div class="p-page-intro__content">
