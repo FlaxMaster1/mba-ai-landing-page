@@ -116,13 +116,12 @@
  .p-mba-pardot--photo .p-mba-pardot__copy { background: rgb(255 255 255 / 94%); padding: clamp(1.5rem, 3vw, 2.5rem); }
 }
 
-/* Pair the revised page's applied-learning and AI-resource rows on desktop. */
+/* Full-width, centered AI-resource row on desktop. */
 @layer site {
  @media (min-width: 64rem) {
-  .t-page-content:has(> #sources) { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .t-page-content:has(> #sources) > * { grid-column: 1 / -1; min-width: 0; }
-  .t-page-content:has(> #sources) > :is(#long-term-value, #sources) { grid-column: auto; padding-block: 4rem; }
-  .t-page-content:has(> #sources) > :is(#long-term-value, #sources) > .u-container { inline-size: calc(100% - clamp(4rem, 8vw, 8rem)); }
+  .t-page-content:has(> #sources) > #sources { padding-block: 4rem; text-align: center; }
+  .t-page-content:has(> #sources) > #sources .u-container { max-inline-size: 56rem; }
+  #sources .u-layout--cluster { justify-content: center; }
  }
 }
 
