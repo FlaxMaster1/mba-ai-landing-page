@@ -73,5 +73,10 @@
     "id": "collaborative-office-hero",
     "file": "images/collaborative-office-hero.png",
     "alt": "Four people collaborating around laptops in a bright office."
+  },
+  {
+    "id": "collaborative-office-hero-mobile",
+    "file": "images/collaborative-office-hero-mobile.png",
+    "alt": "Four people collaborating around laptops in a sunlit office."
   }
 ]
