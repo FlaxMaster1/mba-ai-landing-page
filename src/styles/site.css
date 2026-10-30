@@ -226,3 +226,7 @@
 @layer site {
  .t-page-content:has(> #sources) > #what-sets-you-apart { background: #eef2f7; }
 }
+
+@layer site {
+ .p-mba-cycle__columns .p-mba-cycle__intro h2 { white-space: pre-line; }
+}
