@@ -46,9 +46,6 @@ const { id, eyebrow, heading, items, columns = 3, variant = "promotional" } = As
 </section>
 
 <script>
-  document.querySelectorAll<HTMLButtonElement>(".p-capability-card__button").forEach((button) => {
-    button.addEventListener("click", () => {
-      button.setAttribute("aria-pressed", String(button.getAttribute("aria-pressed") !== "true"));
-    });
-  });
+  import { initializeFlipCards } from "@utilities/flip-cards";
+  initializeFlipCards();
 </script>

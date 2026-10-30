@@ -17,10 +17,28 @@ const split = layout === "split";
     {split && <p class="p-mba-cycle__return">An ongoing exchange of insight, experience, and questions</p>}
     <ol class="p-mba-cycle__steps">
       {stages.map((stage,index)=>(
-        <li>
-          <span class="p-mba-cycle__number">{String(index+1).padStart(2,"0")}</span>
-          <h3>{stage.label}</h3>
-          <p>{stage.description}</p>
+        <li class:list={[split && "p-capability-card p-mba-cycle__flip"]}>
+          {split ? (
+            <button type="button" class="p-capability-card__button" aria-pressed="false" aria-label={`${String(index+1).padStart(2,"0")}, ${stage.label}. ${stage.description} Show or hide details.`}>
+              <span class="p-capability-card__inner" aria-hidden="true">
+                <span class="p-capability-card__face p-capability-card__front">
+                  <span class="p-capability-card__number">{String(index+1).padStart(2,"0")}</span>
+                  <span class="p-capability-card__title">{stage.label}</span>
+                </span>
+                <span class="p-capability-card__face p-capability-card__back">
+                  <span class="p-capability-card__number">{String(index+1).padStart(2,"0")}</span>
+                  <span class="p-capability-card__title">{stage.label}</span>
+                  <span class="p-capability-card__description">{stage.description}</span>
+                </span>
+              </span>
+            </button>
+          ) : (
+            <>
+              <span class="p-mba-cycle__number">{String(index+1).padStart(2,"0")}</span>
+              <h3>{stage.label}</h3>
+              <p>{stage.description}</p>
+            </>
+          )}
         </li>
       ))}
     </ol>
@@ -28,3 +46,7 @@ const split = layout === "split";
     </div>
   </Container>
 </section>
+<script>
+  import { initializeFlipCards } from "@utilities/flip-cards";
+  initializeFlipCards();
+</script>
