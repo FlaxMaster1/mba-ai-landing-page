@@ -236,3 +236,17 @@
  #community :is(.c-eyebrow, h2, p) { color: #000; }
  #learning-by-doing { background: #eef2f7; }
 }
+
+/* Wharton AI Research: text left, hexagon collage right (stacked on mobile). */
+@layer site {
+ #community .p-callout__media { aspect-ratio: auto; overflow: visible; }
+ #community .p-callout__media img { height: auto; aspect-ratio: auto; object-fit: contain; }
+ @media (min-width: 48.0625rem) {
+  #community .p-callout__content { grid-column: 1; grid-row: 1; }
+  #community .p-callout__media { grid-column: 2; grid-row: 1; }
+ }
+ @media (max-width: 48rem) {
+  #community .p-callout__content { order: 1; }
+  #community .p-callout__media { order: 2; }
+ }
+}
