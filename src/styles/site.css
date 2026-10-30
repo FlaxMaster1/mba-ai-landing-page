@@ -198,3 +198,14 @@
   .p-mba-cycle__columns { grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); align-items: center; column-gap: clamp(2rem, 5vw, 5rem); }
  }
 }
+
+@layer site {
+ .p-mba-cycle__columns .p-mba-cycle__steps .p-mba-cycle__flip { padding: 0; border: 0; background: transparent; }
+ .p-mba-cycle__flip .p-capability-card__face { min-height: 12rem; padding: 1.25rem 1.5rem; }
+ .p-mba-cycle__flip .p-capability-card__front { background: rgb(255 255 255 / 6%); border-top: 3px solid #2fb6f2; }
+ .p-mba-cycle__flip .p-capability-card__back { background: #dedede; color: #011f5b; border-top: 3px solid #2fb6f2; }
+ .p-mba-cycle__flip .p-capability-card__number { font-size: 1.25rem; margin: 0; }
+ .p-mba-cycle__flip .p-capability-card__title { font-size: clamp(1.5rem, 2vw, 2rem); margin-top: .5rem; }
+ .p-mba-cycle__flip .p-capability-card__description { font-size: 1.125rem; line-height: 1.4; margin-top: .75rem; }
+ .p-mba-cycle__flip .p-capability-card__button:focus-visible { outline-color: #fff; }
+}
