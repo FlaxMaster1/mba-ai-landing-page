@@ -78,5 +78,10 @@
     "id": "collaborative-office-hero-mobile",
     "file": "images/collaborative-office-hero-mobile.png",
     "alt": "Four people collaborating around laptops in a sunlit office."
+  },
+  {
+    "id": "insights-abstract-background",
+    "file": "images/insights-abstract-background.png",
+    "alt": ""
   }
 ]
