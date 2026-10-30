@@ -114,7 +114,10 @@
           "type": "text",
           "external": true
         },
-        "surface": "subtle"
+        "surface": "subtle",
+        "image": {
+          "assetId": "ai-research-hexagons"
+        }
       },
       {
         "type": "cardGrid",

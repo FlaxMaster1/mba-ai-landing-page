@@ -88,5 +88,10 @@
     "id": "stefano-teaching",
     "file": "images/stefano-teaching.png",
     "alt": "A Wharton faculty member teaching in front of a projected slide."
+  },
+  {
+    "id": "ai-research-hexagons",
+    "file": "images/ai-research-hexagons.png",
+    "alt": "Collage of hexagon-framed photos: a Wharton leader presenting on stage, an engaged audience, and a student speaking."
   }
 ]
