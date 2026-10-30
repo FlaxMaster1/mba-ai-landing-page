@@ -170,3 +170,17 @@
   .t-page-content:has(> #sources) > #top .p-hero__layout { z-index: 1; padding-block-end: calc(48vw + 2rem); }
  }
 }
+
+/* Revised page: schoolwide AI text beside a two-by-two stats grid. */
+@layer site {
+ @media (min-width: 42rem) {
+  .t-page-content:has(> #sources) > #by-the-numbers .p-stats-group { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+ }
+ @media (min-width: 64rem) {
+  .t-page-content:has(> #sources) > #by-the-numbers > .u-container { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); column-gap: clamp(2rem, 5vw, 5rem); }
+  .t-page-content:has(> #sources) > #by-the-numbers h2 { grid-column: 1; grid-row: 1; align-self: end; }
+  .t-page-content:has(> #sources) > #by-the-numbers .p-stats-group__intro { grid-column: 1; grid-row: 2; align-self: start; margin: 0; }
+  .t-page-content:has(> #sources) > #by-the-numbers .p-stats-group { grid-column: 2; grid-row: 1 / 3; }
+  .t-page-content:has(> #sources) > #by-the-numbers .c-stat { aspect-ratio: 1; display: flex; flex-direction: column; justify-content: center; }
+ }
+}
