@@ -209,3 +209,16 @@
  .p-mba-cycle__flip .p-capability-card__description { font-size: 1.125rem; line-height: 1.4; margin-top: .75rem; }
  .p-mba-cycle__flip .p-capability-card__button:focus-visible { outline-color: #fff; }
 }
+
+@layer site {
+ .p-mba-cycle__columns .p-mba-cycle__diagram { inline-size: min(315px, 100%); min-inline-size: 0; justify-self: center; }
+ .p-mba-cycle__flip { block-size: 150px; }
+ .p-mba-cycle__flip .p-capability-card__face { min-height: 0; block-size: 150px; padding: 12px 16px; }
+ .p-mba-cycle__flip .p-capability-card__number { font-size: 1rem; }
+ .p-mba-cycle__flip .p-capability-card__title { font-size: 1.5rem; margin-top: 6px; }
+ .p-mba-cycle__flip .p-capability-card__description { font-size: 1rem; line-height: 1.25; margin-top: 8px; }
+}
+
+@layer site {
+ @media (max-width: 63.999rem) { .p-mba-cycle__columns { grid-template-columns: minmax(0, 1fr); } }
+}
