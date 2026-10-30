@@ -140,3 +140,17 @@
  #sources .c-button--secondary:hover { color: #011f5b; background: #fff; }
  #sources .c-button:focus-visible { outline: 3px solid #fff; outline-offset: 4px; }
 }
+
+/* Bright office hero for the revised prospect page. */
+@layer site {
+ .t-page-content:has(> #sources) > #top { background: #f7f8fa; color: #011f5b; }
+ .t-page-content:has(> #sources) > #top :is(h1, .c-eyebrow, .p-hero__text) { color: #011f5b; }
+ .t-page-content:has(> #sources) > #top .p-hero__media { max-inline-size: none; inline-size: 100%; aspect-ratio: 2021 / 778; margin: 0; }
+ .t-page-content:has(> #sources) > #top .p-hero__media img { object-position: center; }
+ @media (min-width: 64rem) {
+  .t-page-content:has(> #sources) > #top { display: block; min-block-size: clamp(32rem, 38.5vw, 46rem); }
+  .t-page-content:has(> #sources) > #top .p-hero__media { position: absolute; inset: 0; block-size: 100%; aspect-ratio: auto; z-index: 0; }
+  .t-page-content:has(> #sources) > #top .p-hero__layout { min-block-size: inherit; justify-items: start; }
+  .t-page-content:has(> #sources) > #top .p-hero__content { max-inline-size: min(36%, 30rem); text-align: left; justify-items: start; }
+ }
+}

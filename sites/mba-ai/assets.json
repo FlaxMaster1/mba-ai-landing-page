@@ -68,5 +68,10 @@
     "id": "mba-students-form-background",
     "file": "images/mba-students-form-background.jpg",
     "alt": "MBA students walking on Locust Walk."
+  },
+  {
+    "id": "collaborative-office-hero",
+    "file": "images/collaborative-office-hero.png",
+    "alt": "Four people collaborating around laptops in a bright office."
   }
 ]
