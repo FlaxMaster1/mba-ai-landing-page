@@ -111,10 +111,10 @@
         "action": {
           "label": "Explore AI & Analytics Accelerator projects",
           "url": "https://ai-analytics.wharton.upenn.edu/for-students/ai-analytics-accelerator/",
-          "type": "secondary",
+          "type": "text",
           "external": true
         },
-        "surface": "brand-primary"
+        "surface": "subtle"
       },
       {
         "type": "cardGrid",
@@ -146,26 +146,20 @@
         "id": "rigor",
         "eyebrow": "RIGOR IN AI LEARNING",
         "heading": "Use AI to deepen your thinking.",
-        "text": "Roberts emphasizes that AI makes business expertise and judgment more important, because stronger models can sound more convincing. Wharton’s MBA AI guidance asks students to use AI to support their own learning and analysis. Application, discussion, and problem-solving remain central to the education Roberts describes.",
+        "text": "Wharton emphasizes that AI makes business expertise and judgment more important, because stronger models can sound more convincing. Wharton’s MBA AI programming helps students to use AI to support their own learning and analysis. Application, discussion, and problem-solving remain central to the education Roberts describes.",
         "image": {
           "assetId": "wharton-learning-experience"
         },
-        "mediaPosition": "end",
-        "action": {
-          "label": "Read the MBA’s guidance on AI use",
-          "url": "https://mba-inside.wharton.upenn.edu/wharton-mba-academic-policies/#:~:text=Use%20of%20Artificial%20Intelligence",
-          "type": "text",
-          "external": true
-        }
+        "mediaPosition": "end"
       },
       {
         "type": "pageIntro",
         "id": "scale-agility",
         "eyebrow": "BRINGING AI TOOLS INTO MBA LEARNING",
         "heading": "New AI capabilities. Practical access.",
-        "text": "Wharton backs AI learning with school-supported tools and faculty-led workshops. Roberts describes Codex and Claude Code access for MBA students moving from idea to implementation in about a month, and a practical workshop series created as the technology evolved.",
+        "text": "Wharton backs AI learning with school-supported tools and faculty-led workshops. Codex and Claude Code access is provided for MBA students moving from idea to implementation in about a month, and a practical workshop series created as the technology evolved.",
         "image": {
-          "assetId": "scale-city"
+          "assetId": "stefano-teaching"
         }
       },
       {
