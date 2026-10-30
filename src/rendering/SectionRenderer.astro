@@ -12,6 +12,9 @@ let properties: Record<string, unknown> = { ...section };
 if (section.type === "hero" || section.type === "featureRow" || section.type === "mbaQuote" || section.type === "pageIntro" || section.type === "callout") {
   properties = { ...section, image: section.image ? resolveAsset(site, section.image.assetId) : undefined };
 }
+if (section.type === "hero") {
+  properties.mobileImage = section.mobileImage ? resolveAsset(site, section.mobileImage.assetId) : undefined;
+}
 if (section.type === "mbaMedia") {
   properties = { ...section, poster: section.poster ? resolveAsset(site, section.poster.assetId) : undefined };
 }

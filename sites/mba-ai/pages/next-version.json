@@ -20,7 +20,10 @@
         "image": {
           "assetId": "collaborative-office-hero"
         },
-        "variant": "media"
+        "variant": "media",
+        "mobileImage": {
+          "assetId": "collaborative-office-hero-mobile"
+        }
       },
       {
         "type": "statsGroup",

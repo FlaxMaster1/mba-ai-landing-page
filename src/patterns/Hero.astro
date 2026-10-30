@@ -1,4 +1,5 @@
 ---
+import { siteUrl } from "@rendering/site-url";
 import type { Action, Asset } from "@entities/index";
 import Button from "@components/Button.astro";
 import Heading from "@components/Heading.astro";
@@ -10,13 +11,21 @@ interface Props {
   heading: string;
   text?: string;
   image?: Asset;
+  mobileImage?: Asset;
   actions?: Action[];
   variant?: "short" | "tall" | "media";
 }
-const { id, eyebrow, heading, text, image, actions = [], variant = "short" } = Astro.props;
+const { id, eyebrow, heading, text, image, mobileImage, actions = [], variant = "short" } = Astro.props;
 ---
 <section id={id} class:list={["p-hero", `p-hero--${variant}`]} aria-labelledby={`${id}-heading`}>
-  {image && <Image asset={image} loading="eager" class="p-hero__media" />}
+  {image && (mobileImage ? (
+    <figure class="u-responsive-media p-hero__media">
+      <picture>
+        <source media="(max-width: 63.999rem)" srcset={siteUrl(mobileImage.src)} />
+        <img src={siteUrl(image.src)} alt={image.alt} loading="eager" decoding="async" />
+      </picture>
+    </figure>
+  ) : <Image asset={image} loading="eager" class="p-hero__media" />)}
   <Container class="p-hero__layout">
     <div class="p-hero__content">
       {eyebrow && <p class="c-eyebrow">{eyebrow}</p>}

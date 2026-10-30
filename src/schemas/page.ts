@@ -29,6 +29,7 @@ export const sectionSchema = z.discriminatedUnion("type", [
     heading: z.string().min(1),
     text: z.string().optional(),
     image: imageReferenceSchema.optional(),
+    mobileImage: imageReferenceSchema.optional(),
     actions: z.array(actionSchema).max(2).optional(),
     variant: z.enum(["short", "tall", "media"]).default("short")
   }),
