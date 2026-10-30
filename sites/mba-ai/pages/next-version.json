@@ -81,7 +81,7 @@
         "type": "learningCycle",
         "id": "learning-cycle",
         "eyebrow": "HOW WHARTON’S AI INSIGHTS REACH THE CLASSROOM",
-        "heading": "AI Research\nBusiness Practice\nMBA Learning.",
+        "heading": "AI Research.\nBusiness Practice.\nMBA Learning.",
         "text": "Wharton faculty study how AI changes business and engage with organizations putting it to work. Roberts describes how research, industry experience, and questions from students inform one another. For MBA prospects, that exchange connects AI learning to the questions businesses are facing.",
         "stages": [
           {
@@ -103,36 +103,18 @@
         }
       },
       {
-        "type": "cardGrid",
+        "type": "callout",
         "id": "community",
         "eyebrow": "WHARTON AI RESEARCH",
-        "heading": "Study AI with a school investigating its impact.",
-        "columns": 2,
-        "variant": "editorial",
-        "items": [
-          {
-            "eyebrow": "AI AND LEARNING",
-            "title": "When does AI help—and when does it hinder?",
-            "description": "Research by Wharton’s Hamsa Bastani and collaborators examines how access to an AI tutor affects practice and skill development in chess. It offers a concrete example of Wharton studying how AI can support learning.",
-            "action": {
-              "label": "Explore the AI learning research",
-              "url": "https://knowledge.wharton.upenn.edu/article/when-does-ai-assistance-undermine-learning/",
-              "type": "text",
-              "external": true
-            }
-          },
-          {
-            "eyebrow": "AI AND WORK",
-            "title": "How is AI changing the skills businesses need?",
-            "description": "The Wharton–Accenture Skills Index examines the relationship between AI, employer demand, and the value of specific skills. Explore the evidence behind changing expectations for work.",
-            "action": {
-              "label": "Explore the AI skills research",
-              "url": "https://knowledge.wharton.upenn.edu/special-report/2025-wharton-accenture-skills-gap-index/",
-              "type": "text",
-              "external": true
-            }
-          }
-        ]
+        "heading": "Work with AI beyond the classroom.",
+        "text": "Wharton’s AI & Analytics Accelerator gives selected students experience with company datasets and business problems. Fall 2026 projects include capturing organizational knowledge for AI agents and evaluating AI-generated travel content. It is another way to explore how AI techniques meet the demands of a business problem.",
+        "action": {
+          "label": "Explore AI & Analytics Accelerator projects",
+          "url": "https://ai-analytics.wharton.upenn.edu/for-students/ai-analytics-accelerator/",
+          "type": "secondary",
+          "external": true
+        },
+        "surface": "brand-primary"
       },
       {
         "type": "cardGrid",
@@ -254,20 +236,6 @@
           "type": "text",
           "external": true
         }
-      },
-      {
-        "type": "callout",
-        "id": "long-term-value",
-        "eyebrow": "APPLY AI TO BUSINESS CHALLENGES",
-        "heading": "Work with AI beyond the classroom.",
-        "text": "Wharton’s AI & Analytics Accelerator gives selected students experience with company datasets and business problems. Fall 2026 projects include capturing organizational knowledge for AI agents and evaluating AI-generated travel content. It is another way to explore how AI techniques meet the demands of a business problem.",
-        "action": {
-          "label": "Explore AI & Analytics Accelerator projects",
-          "url": "https://ai-analytics.wharton.upenn.edu/for-students/ai-analytics-accelerator/",
-          "type": "secondary",
-          "external": true
-        },
-        "surface": "brand-primary"
       },
       {
         "type": "pageIntro",
