@@ -16,7 +16,7 @@
  .p-capability-card__button[aria-pressed="true"] .p-capability-card__back{transform:rotateY(0)}
  @media(hover:hover){.p-capability-card__button:hover .p-capability-card__front{transform:rotateY(180deg)}.p-capability-card__button:hover .p-capability-card__back{transform:rotateY(0)}}
  @media(prefers-reduced-motion:reduce){.p-capability-card__face{transition:none}}
- #what-sets-you-apart > .u-container > .c-eyebrow{margin-block-end:1.25rem}
+
  .p-mba-quote{padding-block:clamp(3.5rem,7vw,6.5rem);background:#fafafa}
  .p-mba-quote>.u-container{display:grid;gap:clamp(2rem,5vw,4.5rem);align-items:center}
  .p-mba-quote__portrait{margin:0;width:min(100%,325px);justify-self:start}
@@ -249,4 +249,18 @@
   #community .p-callout__content { order: 1; }
   #community .p-callout__media { order: 2; }
  }
+}
+
+/* Consistent text-block rhythm: eyebrow 16px heading 24px text 32px CTA. */
+@layer site {
+ .t-page-content :is(.p-hero__content, .p-mba-quote__copy, .p-mba-media__copy, .p-mba-cycle__intro, .p-callout__content, .p-feature-row__content, .p-page-intro__content, .p-mba-pardot__copy) {
+  display: flex; flex-direction: column; gap: 0;
+ }
+ .t-page-content :is(.p-hero__content, .p-mba-quote__copy, .p-mba-media__copy, .p-mba-cycle__intro, .p-callout__content, .p-feature-row__content, .p-page-intro__content, .p-mba-pardot__copy) > .c-eyebrow,
+ .t-page-content .p-section > .u-container > .c-eyebrow { margin: 0 0 1rem; }
+ .t-page-content :is(.p-hero__content, .p-mba-quote__copy, .p-mba-media__copy, .p-mba-cycle__intro, .p-callout__content, .p-feature-row__content, .p-page-intro__content, .p-mba-pardot__copy) > :is(h1, h2) { margin: 0 0 1.5rem; }
+ .t-page-content :is(.p-hero__content, .p-mba-quote__copy, .p-mba-media__copy, .p-mba-cycle__intro, .p-callout__content, .p-feature-row__content, .p-page-intro__content, .p-mba-pardot__copy) > :is(p:not(.c-eyebrow), .u-layout--cluster) { margin: 0 0 2rem; }
+ .t-page-content :is(.p-hero__content, .p-mba-quote__copy, .p-mba-media__copy, .p-mba-cycle__intro, .p-callout__content, .p-feature-row__content, .p-page-intro__content, .p-mba-pardot__copy) > :last-child { margin-block-end: 0; }
+ .t-page-content :is(.p-mba-media__copy, .p-callout__content, .p-feature-row__content) > .c-button { align-self: flex-start; margin: 0; }
+ .t-page-content .p-mba-quote__copy > h2:last-child { margin-block-end: 0; }
 }
