@@ -222,3 +222,7 @@
 @layer site {
  @media (max-width: 63.999rem) { .p-mba-cycle__columns { grid-template-columns: minmax(0, 1fr); } }
 }
+
+@layer site {
+ .t-page-content:has(> #sources) > #what-sets-you-apart { background: #eef2f7; }
+}
