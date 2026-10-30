@@ -83,5 +83,10 @@
     "id": "insights-gradient-background",
     "file": "images/insights-gradient-background.jpg",
     "alt": ""
+  },
+  {
+    "id": "stefano-teaching",
+    "file": "images/stefano-teaching.png",
+    "alt": "A Wharton faculty member teaching in front of a projected slide."
   }
 ]

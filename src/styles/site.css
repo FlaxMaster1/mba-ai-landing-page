@@ -229,3 +229,10 @@
 @layer site {
  .p-mba-cycle__columns .p-mba-cycle__intro h2 { white-space: pre-line; }
 }
+
+/* Wharton AI Research: white background, black copy, text-style CTA. */
+@layer site {
+ #community { background: #fff; color: #000; }
+ #community :is(.c-eyebrow, h2, p) { color: #000; }
+ #learning-by-doing { background: #eef2f7; }
+}
