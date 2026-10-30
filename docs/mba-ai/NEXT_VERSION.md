@@ -29,3 +29,7 @@ Owner requested a form-image placeholder and supplied a screenshot. The revised 
 ## Final-row background
 
 Uses the owner-supplied Locust Walk student photo unchanged, with a CSS black overlay at exactly 10% opacity. The overlay applies to the background only. A translucent white copy panel preserves readability without darkening the photo beyond the requested overlay. The 509 × 739 form-placeholder slot and final-row order remain unchanged.
+
+## AI education video embed
+
+Owner supplied and requested Vimeo player 1241422385 (“1_Scale Agility Speed V2_R3”) for the “Wharton’s Approach to AI Education” section. The supplied player replaces the placeholder in the responsive 16:9 media slot, with title/byline/portrait/badge hidden as requested. This is the owner-selected existing edit; do not describe it as a newly produced page-exclusive film without separate evidence.
