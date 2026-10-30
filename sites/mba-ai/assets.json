@@ -93,5 +93,10 @@
     "id": "ai-research-hexagons",
     "file": "images/ai-research-hexagons.png",
     "alt": "Collage of hexagon-framed photos: a Wharton leader presenting on stage, an engaged audience, and a student speaking."
+  },
+  {
+    "id": "tww-background",
+    "file": "images/tww-background.avif",
+    "alt": ""
   }
 ]
