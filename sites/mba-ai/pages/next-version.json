@@ -69,15 +69,13 @@
         "heading": "AI capability starts with understanding the business.",
         "text": "Roberts describes Wharton’s approach to preparing students to build solutions with AI: combine knowledge of the technology with business expertise, rethink workflows, and take responsibility for the decisions that follow.",
         "kind": "original-film",
-        "status": "planned",
-        "poster": {
-          "assetId": "learning-art"
-        },
+        "status": "published",
         "link": {
           "label": "Explore Wharton's schoolwide AI Advantage",
           "url": "https://www.wharton.upenn.edu/ai-advantage/",
           "type": "text"
-        }
+        },
+        "embedUrl": "https://player.vimeo.com/video/1241422385?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
       },
       {
         "type": "learningCycle",
