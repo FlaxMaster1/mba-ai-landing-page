@@ -243,12 +243,6 @@
             "url": "https://www.wharton.upenn.edu/ai-advantage/",
             "type": "secondary",
             "external": true
-          },
-          {
-            "label": "MBA AI access and academic policies",
-            "url": "https://mba-inside.wharton.upenn.edu/wharton-mba-academic-policies/",
-            "type": "secondary",
-            "external": true
           }
         ]
       },
