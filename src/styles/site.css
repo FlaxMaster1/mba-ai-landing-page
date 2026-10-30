@@ -211,7 +211,7 @@
 }
 
 @layer site {
- .p-mba-cycle__columns .p-mba-cycle__diagram { inline-size: min(315px, 100%); min-inline-size: 0; justify-self: center; }
+ .p-mba-cycle__columns .p-mba-cycle__diagram { inline-size: min(600px, 100%); min-inline-size: 0; justify-self: center; }
  .p-mba-cycle__flip { block-size: 150px; }
  .p-mba-cycle__flip .p-capability-card__face { min-height: 0; block-size: 150px; padding: 12px 16px; }
  .p-mba-cycle__flip .p-capability-card__number { font-size: 1rem; }
