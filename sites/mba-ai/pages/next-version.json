@@ -97,7 +97,10 @@
             "description": "Connect new insights with business expertise and practical AI learning."
           }
         ],
-        "layout": "split"
+        "layout": "split",
+        "backgroundImage": {
+          "assetId": "insights-abstract-background"
+        }
       },
       {
         "type": "cardGrid",

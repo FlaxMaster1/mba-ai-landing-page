@@ -1,12 +1,15 @@
 ---
+import type { Asset } from "@entities/index";
+import { siteUrl } from "@rendering/site-url";
 import Heading from "@components/Heading.astro";
 import Container from "@utilities/Container.astro";
 interface Stage {label:string;description:string}
-interface Props { id:string; eyebrow?:string;heading:string;text:string;stages:Stage[];layout?:"split"; }
-const {id,eyebrow,heading,text,stages,layout}=Astro.props;
+interface Props { id:string; eyebrow?:string;heading:string;text:string;stages:Stage[];layout?:"split";backgroundImage?:Asset; }
+const {id,eyebrow,heading,text,stages,layout,backgroundImage}=Astro.props;
 const split = layout === "split";
+const backgroundStyle = backgroundImage ? `background-image: url("${siteUrl(backgroundImage.src)}"); background-size: cover; background-position: center; background-repeat: no-repeat;` : undefined;
 ---
-<section id={id} class="p-mba-cycle" aria-labelledby={id+"-heading"}>
+<section id={id} class="p-mba-cycle" style={backgroundStyle} aria-labelledby={id+"-heading"}>
   <Container class={split ? "p-mba-cycle__columns" : undefined}>
     <header class="p-mba-cycle__intro">
       {eyebrow && <p class="c-eyebrow">{eyebrow}</p>}
