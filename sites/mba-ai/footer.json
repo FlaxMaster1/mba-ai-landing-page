@@ -1,0 +1,67 @@
+{
+  "additionalLinks": [
+    {
+      "label": "Request information",
+      "url": "#request-information"
+    },
+    {
+      "label": "AI Advantage",
+      "url": "https://www.wharton.upenn.edu/ai-advantage/",
+      "external": true
+    }
+  ],
+  "institutionalGroups": [
+    {
+      "heading": "Wharton MBA",
+      "links": [
+        {
+          "label": "MBA Program",
+          "url": "https://mba.wharton.upenn.edu/",
+          "external": true
+        },
+        {
+          "label": "Admissions",
+          "url": "https://mba.wharton.upenn.edu/admissions/",
+          "external": true
+        },
+        {
+          "label": "Curriculum",
+          "url": "https://mba.wharton.upenn.edu/mba-curriculum/",
+          "external": true
+        }
+      ]
+    },
+    {
+      "heading": "Explore",
+      "links": [
+        {
+          "label": "AI in the Curriculum",
+          "url": "https://www.wharton.upenn.edu/ai-advantage/",
+          "external": true
+        },
+        {
+          "label": "MBA Impact",
+          "url": "https://mba.wharton.upenn.edu/whats-possible-with-a-wharton-mba/",
+          "external": true
+        },
+        {
+          "label": "MBA Guide",
+          "url": "https://mba.wharton.upenn.edu/mba-guide/",
+          "external": true
+        }
+      ]
+    }
+  ],
+  "legal": [
+    {
+      "label": "Privacy Policy",
+      "url": "https://www.upenn.edu/privacy",
+      "external": true
+    },
+    {
+      "label": "Accessibility",
+      "url": "https://www.upenn.edu/accessibility",
+      "external": true
+    }
+  ]
+}

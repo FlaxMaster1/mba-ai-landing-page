@@ -1,0 +1,26 @@
+name: MBA AI prototype build and validation
+on:
+  push:
+    branches: [main, "codex/**"]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - run: npm run build:mba
+      - run: SITE=mba-ai npm run audit:build
+      - name: Save private review build
+        uses: actions/upload-artifact@v4
+        with:
+          name: wharton-mba-ai-prototype
+          path: dist/
+          retention-days: 14

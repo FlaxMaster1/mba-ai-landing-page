@@ -1,0 +1,102 @@
+[
+  {
+    "id": "hero-art",
+    "file": "images/hero-art.png",
+    "alt": "Abstract blue network of connected geometric forms"
+  },
+  {
+    "id": "scale-city",
+    "file": "images/penn-wharton-campus.png",
+    "alt": "Aerial view of Philadelphia and the Penn Wharton campus"
+  },
+  {
+    "id": "learning-art",
+    "file": "images/learning-art.svg",
+    "alt": "Image placeholder"
+  },
+  {
+    "id": "wharton-learning-experience",
+    "file": "images/wharton-learning-experience.jpg",
+    "alt": "Speaker presenting onstage at a Wharton event"
+  },
+  {
+    "id": "roberts-headshot",
+    "file": "images/michael-roberts-cutout.png",
+    "alt": "Michael Roberts, Vice Dean of the MBA Program"
+  },
+  {
+    "id": "ai-preterm-hero",
+    "file": "images/ai-preterm-hero.jpg",
+    "alt": "MBA students gathering at a Wharton Pre-Term event"
+  },
+  {
+    "id": "ai-advantage-hero",
+    "file": "images/ai-advantage-hero.png",
+    "alt": "Wharton AI Advantage feature image"
+  },
+  {
+    "id": "mba-majors-hero",
+    "file": "images/mba-majors-hero.jpg",
+    "alt": "Wharton MBA students on campus"
+  },
+  {
+    "id": "hetvee-marviya",
+    "file": "images/hetvee-marviya.jpg",
+    "alt": "Hetvee Marviya smiling in a classroom"
+  },
+  {
+    "id": "beyond-first-role",
+    "file": "images/beyond-first-role.jpg",
+    "alt": "Wharton MBA alumni gathering at an event"
+  },
+  {
+    "id": "tit-9929",
+    "file": "images/tit-9929.avif",
+    "alt": "Faculty teaching in a Wharton classroom"
+  },
+  {
+    "id": "take-next-step-form",
+    "file": "images/take-next-step-form.png",
+    "alt": "Wharton MBA information request form"
+  },
+  {
+    "id": "mba-guide-form-preview",
+    "file": "images/mba-guide-form-preview.png",
+    "alt": "Placeholder preview of the Wharton MBA Guide request form. This image is not an interactive form."
+  },
+  {
+    "id": "mba-students-form-background",
+    "file": "images/mba-students-form-background.jpg",
+    "alt": "MBA students walking on Locust Walk."
+  },
+  {
+    "id": "collaborative-office-hero",
+    "file": "images/collaborative-office-hero.png",
+    "alt": "Four people collaborating around laptops in a bright office."
+  },
+  {
+    "id": "collaborative-office-hero-mobile",
+    "file": "images/collaborative-office-hero-mobile.png",
+    "alt": "Four people collaborating around laptops in a sunlit office."
+  },
+  {
+    "id": "insights-gradient-background",
+    "file": "images/insights-gradient-background.jpg",
+    "alt": ""
+  },
+  {
+    "id": "stefano-teaching",
+    "file": "images/stefano-teaching.png",
+    "alt": "A Wharton faculty member teaching in front of a projected slide."
+  },
+  {
+    "id": "ai-research-hexagons",
+    "file": "images/ai-research-hexagons.png",
+    "alt": "Collage of hexagon-framed photos: a Wharton leader presenting on stage, an engaged audience, and a student speaking."
+  },
+  {
+    "id": "tww-background",
+    "file": "images/tww-background.avif",
+    "alt": ""
+  }
+]

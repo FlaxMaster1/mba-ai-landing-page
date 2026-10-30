@@ -1,0 +1,66 @@
+{
+  "id": "mba-ai",
+  "name": "MBA Program",
+  "referenceDomain": "https://mba.wharton.upenn.edu/",
+  "prototypeTitle": "Wharton MBA | AI Advantage · Editorial prototype",
+  "theme": "old-theme",
+  "institutionalBrand": {
+    "homeUrl": "https://www.wharton.upenn.edu/",
+    "headerLogo": {
+      "src": "/shared/logos/wharton-color.svg",
+      "alt": "The Wharton School of the University of Pennsylvania"
+    },
+    "footerLogo": {
+      "src": "/shared/logos/wharton-reverse.svg",
+      "alt": "The Wharton School of the University of Pennsylvania"
+    }
+  },
+  "featureFlags": {
+    "search": false,
+    "mobileNavigation": true,
+    "themePreview": false
+  },
+  "defaultSeo": {
+    "titleSuffix": " | Wharton MBA",
+    "description": "Discover how Wharton MBA combines AI, business rigor, research, and real-world practice to prepare leaders to build what's next."
+  },
+  "ui": {
+    "skipToContent": "Skip to main content",
+    "menu": "Menu",
+    "closeMenu": "Close",
+    "back": "Back",
+    "search": "Search MBA",
+    "searchSubmit": "Search",
+    "backToTop": "Back to top",
+    "eventEmpty": "No events are available.",
+    "formSuccess": "This prototype does not collect information.",
+    "programNavigationLabel": "Wharton programs",
+    "primaryNavigationLabel": "MBA program navigation",
+    "footerLabel": "Wharton MBA footer",
+    "footerAdditionalLinks": "Additional Links",
+    "themeSelector": "Theme",
+    "oldTheme": "Current Wharton theme",
+    "newTheme": "Future theme",
+    "configuredTheme": "Configured theme"
+  },
+  "integrations": {
+    "events": {
+      "provider": "fixture"
+    },
+    "content": {
+      "provider": "fixture"
+    },
+    "faculty": {
+      "provider": "fixture"
+    },
+    "forms": {
+      "provider": "prototype"
+    },
+    "search": {
+      "provider": "fixture"
+    },
+    "analytics": {
+      "provider": "noop"
+    }
+  }
+}

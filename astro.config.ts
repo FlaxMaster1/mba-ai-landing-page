@@ -1,0 +1,23 @@
+import cloudflare from "@astrojs/cloudflare";
+import { sites } from "@openai/sites-vite-plugin";
+import { defineConfig } from "astro/config";
+
+const isSitesBuild = process.env.SITES_BUILD === "true";
+const isPagesBuild = process.env.PAGES_BUILD === "true";
+
+export default defineConfig({
+  adapter: isSitesBuild ? cloudflare({ prerenderEnvironment: "node" }) : undefined,
+  output: isSitesBuild ? "server" : "static",
+  site: isPagesBuild ? "https://flaxmaster1.github.io" : undefined,
+  base: isPagesBuild ? "/mba-ai-landing-page" : undefined,
+  trailingSlash: "always",
+  build: {
+    format: "directory"
+  },
+  vite: {
+    plugins: isSitesBuild ? [sites()] : [],
+    define: {
+      "import.meta.env.SITE_ID": JSON.stringify(process.env.SITE ?? "mba-ai")
+    }
+  }
+});

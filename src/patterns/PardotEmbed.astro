@@ -1,0 +1,22 @@
+---
+import { siteUrl } from "@rendering/site-url";
+import type { Asset } from "@entities/index";
+import Heading from "@components/Heading.astro";
+import Image from "@components/Image.astro";
+import Container from "@utilities/Container.astro";
+interface Props {id:string;eyebrow?:string;heading:string;text:string;status?:"pending-embed"|"live";embedUrl?:string;fallbackUrl:string;fallbackLabel:string;image?:any;backgroundImage?:Asset;}
+const {id,eyebrow,heading,text,image,backgroundImage}=Astro.props;
+const backgroundStyle = backgroundImage ? `background-image: linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 10%)), url("${siteUrl(backgroundImage.src)}")` : undefined;
+---
+<section id={id} class:list={["p-mba-pardot", {"p-mba-pardot--form-preview": image?.id === "mba-guide-form-preview", "p-mba-pardot--photo": !!backgroundImage}]} aria-labelledby={id+"-heading"} style={backgroundStyle}>
+  <Container>
+    <div class="p-mba-pardot__copy">
+      {eyebrow && <p class="c-eyebrow">{eyebrow}</p>}
+      <Heading as="h2" id={id+"-heading"}>{heading}</Heading>
+      <p>{text}</p>
+    </div>
+    <div class="p-mba-pardot__embed">
+      {image ? <Image asset={image} class="p-mba-pardot__image" /> : <p class="p-mba-pardot__placeholder">Pardot form embedded here</p>}
+    </div>
+  </Container>
+</section>
