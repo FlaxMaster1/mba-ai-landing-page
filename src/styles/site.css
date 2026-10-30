@@ -185,3 +185,16 @@
   .t-page-content:has(> #sources) > #by-the-numbers .c-stat { aspect-ratio: auto; block-size: 220px; display: flex; flex-direction: column; justify-content: center; }
  }
 }
+
+@layer site {
+ .p-mba-cycle__columns .p-mba-cycle__intro { text-align: left; margin: 0; max-width: none; }
+ .p-mba-cycle__columns .p-mba-cycle__return { text-align: left; margin: 0; }
+ .p-mba-cycle__columns .p-mba-cycle__steps { grid-template-columns: minmax(0, 1fr); margin: 1.5rem 0 0; }
+ .p-mba-cycle__columns .p-mba-cycle__steps li { padding: 1.25rem 1.5rem; }
+ .p-mba-cycle__columns .p-mba-cycle__steps h3 { font-size: clamp(1.5rem, 2vw, 2rem); margin: .5rem 0; }
+ .p-mba-cycle__columns .p-mba-cycle__steps p { max-width: none; }
+ .p-mba-cycle__columns { display: grid; gap: 2.5rem; }
+ @media (min-width: 64rem) {
+  .p-mba-cycle__columns { grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); align-items: center; column-gap: clamp(2rem, 5vw, 5rem); }
+ }
+}

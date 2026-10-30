@@ -119,7 +119,7 @@ export const sectionSchema = z.discriminatedUnion("type", [
     duration:z.string().optional(), embedUrl:z.url().optional(), poster:imageReferenceSchema.optional(),link:actionSchema.optional()
   }),
   baseSectionSchema.extend({
-    type:z.literal("learningCycle"),heading:z.string().min(1),text:z.string().min(1),
+    type:z.literal("learningCycle"),heading:z.string().min(1),text:z.string().min(1),layout:z.literal("split").optional(),
     stages:z.array(z.object({label:z.string().min(1),description:z.string().min(1)})).min(3).max(3)
   }),
   baseSectionSchema.extend({

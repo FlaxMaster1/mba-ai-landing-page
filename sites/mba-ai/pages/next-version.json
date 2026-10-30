@@ -96,7 +96,8 @@
             "label": "Classroom",
             "description": "Connect new insights with business expertise and practical AI learning."
           }
-        ]
+        ],
+        "layout": "split"
       },
       {
         "type": "cardGrid",
