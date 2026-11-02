@@ -119,31 +119,6 @@
         }
       },
       {
-        "type": "cardGrid",
-        "id": "what-sets-you-apart",
-        "eyebrow": "THREE CAPABILITIES FOR WORKING WITH AI",
-        "heading": "Understand the output. Build the solution. Own the decision.",
-        "columns": 3,
-        "variant": "editorial",
-        "items": [
-          {
-            "title": "Question AI-generated answers",
-            "eyebrow": "01 / JUDGMENT",
-            "description": "Use business expertise to examine an AI-generated answer, question its assumptions, and judge whether it solves the problem."
-          },
-          {
-            "title": "Build and rethink with AI",
-            "eyebrow": "02 / APPLICATION",
-            "description": "Combine business expertise and AI capability to build practical solutions—and rethink entire workflows with AI in mind."
-          },
-          {
-            "title": "Own AI-supported decisions",
-            "eyebrow": "03 / ACCOUNTABILITY",
-            "description": "Explain how you used AI, communicate the reasoning, and take responsibility for the decision."
-          }
-        ]
-      },
-      {
         "type": "featureRow",
         "id": "rigor",
         "eyebrow": "RIGOR IN AI LEARNING",
