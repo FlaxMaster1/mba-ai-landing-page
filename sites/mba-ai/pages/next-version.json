@@ -188,14 +188,14 @@
           },
           {
             "eyebrow": "AT THE FRONTIER",
-            "title": "Faculty-led AI workshops",
-            "description": "A four-part AI workshop series with Ethan Mollick, Kartik Hosanagar, Daniel Rock, and Michael Roberts, sharing how they use AI in their professional and personal lives.",
+            "title": "Prepares Business Leaders in the AI Era",
+            "description": "Wharton’s Artificial Intelligence for Business curriculum pairs applied machine learning and data with ethics, governance, and human behavior. Students test frameworks in live organizations through Advanced Study projects and corporate partner teams.",
             "image": {
               "assetId": "tit-9929"
             },
             "action": {
               "label": "Explore Wharton's AI approach",
-              "url": "https://www.wharton.upenn.edu/ai-advantage/",
+              "url": "https://www.wharton.upenn.edu/how-wharton-prepares-business-leaders-in-the-ai-era/",
               "type": "text",
               "external": true
             }
@@ -209,7 +209,7 @@
             },
             "action": {
               "label": "Explore Wharton’s AI business curriculum",
-              "url": "https://www.wharton.upenn.edu/how-wharton-prepares-business-leaders-in-the-ai-era/",
+              "url": "https://oid.wharton.upenn.edu/artificial-intelligence-mba/",
               "type": "text",
               "external": true
             }
