@@ -58,7 +58,7 @@
  .p-mba-cycle h2,.p-mba-cycle h3,.p-mba-cycle .c-eyebrow{color:#fff}
  .p-mba-cycle__intro{max-width:56rem;margin-inline:auto;text-align:center}
  .p-mba-cycle__intro h2{margin:.85rem 0 1.25rem;white-space:pre-line}
-.p-mba-cycle .p-mba-cycle__cta{margin-top:2rem}
+.p-mba-cycle .p-mba-cycle__cta{margin-top:2rem;min-inline-size:0;padding-inline:1.5rem}
 .p-mba-cycle .c-button--secondary{color:#fff;border-color:#fff}
 .p-mba-cycle .c-button--secondary:hover{color:#011f5b;background:#fff}
  .p-mba-cycle__intro>p:last-child{line-height:1.65}
