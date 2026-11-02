@@ -120,8 +120,8 @@ export const sectionSchema = z.discriminatedUnion("type", [
     duration:z.string().optional(), embedUrl:z.url().optional(), poster:imageReferenceSchema.optional(),link:actionSchema.optional()
   }),
   baseSectionSchema.extend({
-    type:z.literal("learningCycle"),heading:z.string().min(1),text:z.string().min(1),layout:z.literal("split").optional(),backgroundImage:imageReferenceSchema.optional(),
-    stages:z.array(z.object({label:z.string().min(1),description:z.string().min(1)})).min(3).max(3)
+    type:z.literal("learningCycle"),heading:z.string().min(1),text:z.string().min(1),layout:z.literal("split").optional(),backgroundImage:imageReferenceSchema.optional(),link:actionSchema.optional(),
+    stages:z.array(z.object({label:z.string().min(1),description:z.string().min(1)})).min(3).max(3).optional()
   }),
   baseSectionSchema.extend({
     type:z.literal("pardotEmbed"), heading:z.string().min(1),text:z.string().min(1), image:imageReferenceSchema.optional(), backgroundImage:imageReferenceSchema.optional(),

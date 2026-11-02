@@ -69,11 +69,6 @@
         "text": "Wharton prepares students to build solutions with AI by combining knowledge of the technology with business expertise, rethink workflows, and to take responsibility for the decisions that follow.",
         "kind": "original-film",
         "status": "published",
-        "link": {
-          "label": "Explore Wharton's schoolwide AI Advantage",
-          "url": "https://www.wharton.upenn.edu/ai-advantage/",
-          "type": "text"
-        },
         "embedUrl": "https://player.vimeo.com/video/1241422385?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
       },
       {
@@ -82,23 +77,13 @@
         "eyebrow": "HOW WHARTON’S AI INSIGHTS REACH THE CLASSROOM",
         "heading": "AI Research.\nBusiness Practice.\nMBA Learning.",
         "text": "Wharton faculty study how AI changes business and engage with organizations putting it to work. Research, industry experience, and questions from students inform one another for a more robust classroom experience. For MBA prospects, that exchange connects AI learning to the questions businesses are facing right now.",
-        "stages": [
-          {
-            "label": "Research",
-            "description": "Investigate AI’s effects on learning, decisions, and business."
-          },
-          {
-            "label": "Practice",
-            "description": "Engage with organizations exploring how to put AI to work."
-          },
-          {
-            "label": "Classroom",
-            "description": "Connect new insights with business expertise and practical AI learning."
-          }
-        ],
-        "layout": "split",
         "backgroundImage": {
           "assetId": "insights-gradient-background"
+        },
+        "link": {
+          "label": "Explore Wharton's schoolwide AI Advantage",
+          "url": "https://www.wharton.upenn.edu/ai-advantage/",
+          "type": "text"
         }
       },
       {
