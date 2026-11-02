@@ -57,7 +57,10 @@
  .p-mba-cycle{padding-block:clamp(4.5rem,8vw,7rem);background:#011f5b;color:#fff}
  .p-mba-cycle h2,.p-mba-cycle h3,.p-mba-cycle .c-eyebrow{color:#fff}
  .p-mba-cycle__intro{max-width:56rem;margin-inline:auto;text-align:center}
- .p-mba-cycle__intro h2{margin:.85rem 0 1.25rem}
+ .p-mba-cycle__intro h2{margin:.85rem 0 1.25rem;white-space:pre-line}
+.p-mba-cycle .p-mba-cycle__cta{margin-top:2rem}
+.p-mba-cycle .c-button--secondary{color:#fff;border-color:#fff}
+.p-mba-cycle .c-button--secondary:hover{color:#011f5b;background:#fff}
  .p-mba-cycle__intro>p:last-child{line-height:1.65}
  .p-mba-cycle__steps{display:grid;gap:1rem;list-style:none;padding:0;margin:3rem 0 1rem}
  .p-mba-cycle__steps li{position:relative;border-top:3px solid #2FB6F2;padding:1.8rem 1.25rem 2rem;background:rgba(255,255,255,.06)}
