@@ -104,6 +104,12 @@
             "description": "Stronger models can sound more convincing, which makes business expertise and judgment more important. Wharton’s MBA AI programming helps students use AI to support their own learning and analysis, with application, discussion, and problem-solving at the center.",
             "image": {
               "assetId": "wharton-learning-experience"
+            },
+            "action": {
+              "label": "Explore Wharton’s Generative AI Lab",
+              "url": "https://gail.wharton.upenn.edu/",
+              "type": "text",
+              "external": true
             }
           },
           {
