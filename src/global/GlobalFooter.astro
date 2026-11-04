@@ -1,14 +1,16 @@
 ---
 import { siteUrl } from "@rendering/site-url";
 import type { LoadedSite } from "@rendering/site-loader";
-interface Props { site: LoadedSite; }
-const { site } = Astro.props;
+interface Props { site: LoadedSite; sectionIds?: string[]; }
+const { site, sectionIds } = Astro.props;
+// Hide in-page anchor links whose target section is not on this page.
+const additionalLinks = site.footer.additionalLinks.filter((item) => !item.url.startsWith("#") || !sectionIds || sectionIds.includes(item.url.slice(1)));
 ---
 <footer class="g-global-footer" aria-label={site.config.ui.footerLabel}>
   <div class="u-container">
     <details class="g-global-footer__additional">
       <summary>{site.config.ui.footerAdditionalLinks}</summary>
-      {site.footer.additionalLinks.length > 0 && <nav aria-label="Additional links"><ul role="list">{site.footer.additionalLinks.map((item) => <li><a href={item.url}>{item.label}</a></li>)}</ul></nav>}
+      {additionalLinks.length > 0 && <nav aria-label="Additional links"><ul role="list">{additionalLinks.map((item) => <li><a href={item.url}>{item.label}</a></li>)}</ul></nav>}
       <div class="g-global-footer__groups">
         {site.footer.institutionalGroups.map((group) => <section><h2>{group.heading}</h2><ul role="list">{group.links.map((item) => <li><a href={item.url} target={item.external ? "_blank" : undefined} rel={item.external ? "noreferrer" : undefined}>{item.label}</a></li>)}</ul></section>)}
       </div>

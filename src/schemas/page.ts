@@ -25,6 +25,15 @@ export const sectionSchema = z.discriminatedUnion("type", [
     image: imageReferenceSchema
   }),
   baseSectionSchema.extend({
+    type: z.literal("mbaPerspective"), heading: z.string().min(1), quote: z.string().min(1),
+    attribution: z.string().min(1), role: z.string().min(1), image: imageReferenceSchema,
+    embedUrl: z.url(), videoTitle: z.string().min(1)
+  }),
+  baseSectionSchema.extend({
+    type: z.literal("mbaPair"), heading: z.string().min(1), text: z.string().optional(),
+    items: z.array(cardItemSchema).length(2)
+  }),
+  baseSectionSchema.extend({
     type: z.literal("hero"),
     heading: z.string().min(1),
     text: z.string().optional(),

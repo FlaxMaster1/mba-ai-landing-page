@@ -1,4 +1,6 @@
 import MBAQuote from "@patterns/MBAQuote.astro";
+import MBAPerspective from "@patterns/MBAPerspective.astro";
+import MBAPair from "@patterns/MBAPair.astro";
 import Hero from "@patterns/Hero.astro";
 import PageIntro from "@patterns/PageIntro.astro";
 import CardGrid from "@patterns/CardGrid.astro";
@@ -18,6 +20,8 @@ import type { SectionConfig } from "@schemas/page";
 
 export const patternRegistry = {
   mbaQuote: MBAQuote,
+  mbaPerspective: MBAPerspective,
+  mbaPair: MBAPair,
   hero: Hero,
   pageIntro: PageIntro,
   cardGrid: CardGrid,

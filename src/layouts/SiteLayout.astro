@@ -6,8 +6,8 @@ import BackToTop from "@components/BackToTop.astro";
 import ThemeSelector from "../themes/ThemeSelector.astro";
 import { resolveThemeDefinition, themeRegistry, type ThemeId } from "../themes";
 import sharedStylesheet from "../styles/index.css?url";
-interface Props { site: LoadedSite; title: string; description?: string; }
-const { site, title, description = site.config.defaultSeo.description } = Astro.props;
+interface Props { site: LoadedSite; title: string; description?: string; sectionIds?: string[]; }
+const { site, title, description = site.config.defaultSeo.description, sectionIds } = Astro.props;
 const documentTitle = `${title}${site.config.defaultSeo.titleSuffix}`;
 const theme = resolveThemeDefinition(site.config.theme);
 const themeStylesheets = Object.fromEntries(
@@ -31,7 +31,7 @@ const themePreviewEnabled = import.meta.env.DEV && site.config.featureFlags.them
     <GlobalHeader {site} />
     <slot />
     <BackToTop label={site.config.ui.backToTop} />
-    <GlobalFooter {site} />
+    <GlobalFooter {site} {sectionIds} />
     {themePreviewEnabled && (
       <ThemeSelector
         configuredTheme={theme.id}

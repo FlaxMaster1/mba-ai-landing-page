@@ -9,7 +9,7 @@ const { section, site, providers } = Astro.props;
 const Pattern = resolvePattern(section.type) as any;
 let properties: Record<string, unknown> = { ...section };
 
-if (section.type === "hero" || section.type === "featureRow" || section.type === "mbaQuote" || section.type === "pageIntro" || section.type === "callout") {
+if (section.type === "hero" || section.type === "featureRow" || section.type === "mbaQuote" || section.type === "mbaPerspective" || section.type === "pageIntro" || section.type === "callout") {
   properties = { ...section, image: section.image ? resolveAsset(site, section.image.assetId) : undefined };
 }
 if (section.type === "hero") {
@@ -24,7 +24,7 @@ if (section.type === "mbaMedia") {
 if (section.type === "pardotEmbed") {
   properties = { ...section, image: section.image ? resolveAsset(site, section.image.assetId) : undefined, backgroundImage: section.backgroundImage ? resolveAsset(site, section.backgroundImage.assetId) : undefined };
 }
-if (section.type === "cardGrid") {
+if (section.type === "cardGrid" || section.type === "mbaPair") {
   properties = { ...section, items: section.items.map((item) => ({ ...item, image: item.image ? resolveAsset(site, item.image.assetId) : undefined })) };
 }
 if (section.type === "storyCollection") {
