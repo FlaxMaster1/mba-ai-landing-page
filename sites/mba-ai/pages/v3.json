@@ -133,10 +133,25 @@
         "id": "learning-cycle",
         "eyebrow": "FACULTY EXPERTISE",
         "heading": "AI Research.\nBusiness Practice.\nMBA Learning.",
-        "text": "Wharton faculty study how AI changes business and engage with organizations putting it to work. Research, industry experience, and questions from students inform one another for a more robust classroom experience. For MBA prospects, that exchange connects AI learning to the questions businesses are facing right now.",
+        "text": "Wharton faculty study how AI is transforming business and engage directly with organizations applying it in practice. Their research, industry experience, and collaboration with students shape learning across the MBA Program. The result is an AI-infused educational experience that helps students understand not only how the technology works, but how to lead with it in a rapidly changing business environment.",
         "backgroundImage": {
           "assetId": "insights-gradient-background"
-        }
+        },
+        "layout": "split",
+        "stages": [
+          {
+            "label": "AI Research",
+            "description": "Faculty study how AI is transforming business and where its limits matter."
+          },
+          {
+            "label": "Business Practice",
+            "description": "Faculty engage directly with organizations applying AI in practice."
+          },
+          {
+            "label": "MBA Learning",
+            "description": "Research, industry experience, and collaboration with students shape learning across the MBA Program."
+          }
+        ]
       },
       {
         "type": "pageIntro",
