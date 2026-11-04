@@ -308,3 +308,12 @@
  .p-mba-pair__body .c-button{justify-self:start;margin-block-start:.5rem}
  @media(min-width:48rem){.p-mba-pair__grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 }
+
+/* v3: "Explore Wharton's AI capabilities" on a solid #FAFAFA surface (no background image). */
+@layer site {
+ .t-page-content:has(> #sources):has(> #advantage.p-mba-perspective) > #sources { background: #fafafa; color: #011f5b; }
+ .t-page-content:has(> #sources):has(> #advantage.p-mba-perspective) > #sources :is(.c-eyebrow, h2, .c-button--text) { color: #011f5b; }
+ .t-page-content:has(> #sources):has(> #advantage.p-mba-perspective) #sources .c-button--secondary { color: #011f5b; border-color: #011f5b; }
+ .t-page-content:has(> #sources):has(> #advantage.p-mba-perspective) #sources .c-button--secondary:hover { color: #fff; background: #011f5b; }
+ .t-page-content:has(> #sources):has(> #advantage.p-mba-perspective) #sources .c-button:focus-visible { outline-color: #2FB6F2; }
+}
