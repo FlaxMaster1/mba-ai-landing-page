@@ -167,10 +167,7 @@
             "type": "secondary",
             "external": true
           }
-        ],
-        "backgroundImage": {
-          "assetId": "tww-background"
-        }
+        ]
       }
     ]
   }
