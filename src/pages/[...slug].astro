@@ -19,6 +19,6 @@ const { route } = Astro.props;
 const site = loadSite();
 const page = findPage(site, route);
 ---
-<SiteLayout {site} title={page.seo?.title ?? page.title} description={page.seo?.description}>
+<SiteLayout {site} title={page.seo?.title ?? page.title} description={page.seo?.description} sectionIds={page.sections.map((section) => section.id)}>
   <PageRenderer {site} {page} />
 </SiteLayout>

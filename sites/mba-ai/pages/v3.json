@@ -8,7 +8,7 @@
     "sidebar": "none",
     "seo": {
       "title": "Where AI Meets Wharton Expertise.",
-      "description": "Explore AI learning in the Wharton MBA: faculty research, school-supported tools, practical workshops, an AI major, and student projects."
+      "description": "See how the Wharton MBA prepares students to lead in an AI-driven business environment: Michael Roberts’ perspective, AI across the MBA experience, an AI major, student projects, and faculty expertise."
     },
     "sections": [
       {
@@ -26,116 +26,31 @@
         }
       },
       {
-        "type": "statsGroup",
-        "id": "by-the-numbers",
-        "heading": "Wharton’s depth in AI and analytics",
-        "text": "The MBA is part of a schoolwide AI and analytics ecosystem spanning faculty, research, degree programs, and Executive Education.",
-        "items": [
-          {
-            "value": "90+",
-            "label": "AI and Analytics Affiliated Faculty"
-          },
-          {
-            "value": "65+",
-            "label": "AI and Analytics Courses Across Degree Programs"
-          },
-          {
-            "value": "10",
-            "label": "AI and Analytics Executive Education Programs"
-          },
-          {
-            "value": "9",
-            "label": "AI and Analytics Research Centers and Labs"
-          }
-        ]
-      },
-      {
-        "type": "mbaQuote",
+        "type": "mbaPerspective",
         "id": "advantage",
-        "eyebrow": "WHAT WHARTON PREPARES YOU TO DO WITH AI",
-        "heading": "Build with AI. Bring business expertise.",
+        "eyebrow": "WHARTON’S APPROACH TO AI IN THE MBA",
+        "heading": "AI is reshaping business. Wharton prepares leaders for it.",
         "quote": "As AI becomes more capable, the deeper question is what we ask of ourselves. A Wharton MBA develops the expertise to recognize what matters, the judgment to question even a convincing answer, and the conviction to take responsibility for a decision no technology can make on our behalf.",
         "attribution": "Michael Roberts",
         "role": "Vice Dean of the MBA Program",
         "image": {
           "assetId": "roberts-headshot"
-        }
-      },
-      {
-        "type": "mbaMedia",
-        "id": "manifesto-film",
-        "eyebrow": "WHARTON’S APPROACH TO AI EDUCATION",
-        "heading": "AI capability starts with understanding the business.",
-        "text": "Wharton prepares students to build solutions with AI by combining knowledge of the technology with business expertise, rethink workflows, and to take responsibility for the decisions that follow.",
-        "kind": "original-film",
-        "status": "published",
-        "embedUrl": "https://player.vimeo.com/video/1241422385?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
-      },
-      {
-        "type": "learningCycle",
-        "id": "learning-cycle",
-        "eyebrow": "HOW WHARTON’S AI INSIGHTS REACH THE CLASSROOM",
-        "heading": "AI Research.\nBusiness Practice.\nMBA Learning.",
-        "text": "Wharton faculty study how AI changes business and engage with organizations putting it to work. Research, industry experience, and questions from students inform one another for a more robust classroom experience. For MBA prospects, that exchange connects AI learning to the questions businesses are facing right now.",
-        "backgroundImage": {
-          "assetId": "insights-gradient-background"
         },
-        "link": {
-          "label": "Explore Wharton's schoolwide AI Advantage",
-          "url": "https://www.wharton.upenn.edu/ai-advantage/",
-          "type": "text"
-        }
-      },
-      {
-        "type": "callout",
-        "id": "community",
-        "eyebrow": "WHARTON AI RESEARCH",
-        "heading": "Work with AI beyond the classroom.",
-        "text": "Wharton’s AI & Analytics Accelerator gives selected students experience with company datasets and business problems. Fall 2026 projects include capturing organizational knowledge for AI agents and evaluating AI-generated travel content. It is another way to explore how AI techniques meet the demands of a business problem.",
-        "action": {
-          "label": "Explore AI & Analytics Accelerator projects",
-          "url": "https://ai-analytics.wharton.upenn.edu/for-students/ai-analytics-accelerator/",
-          "type": "text",
-          "external": true
-        },
-        "surface": "subtle",
-        "image": {
-          "assetId": "ai-research-hexagons"
-        }
-      },
-      {
-        "type": "featureRow",
-        "id": "rigor",
-        "eyebrow": "RIGOR IN AI LEARNING",
-        "heading": "Use AI to deepen your thinking.",
-        "text": "Wharton emphasizes that AI makes business expertise and judgment more important, because stronger models can sound more convincing. Wharton’s MBA AI programming helps students to use AI to support their own learning and analysis. Application, discussion, and problem-solving is the value that remains central to the education.",
-        "image": {
-          "assetId": "wharton-learning-experience"
-        },
-        "mediaPosition": "end"
-      },
-      {
-        "type": "pageIntro",
-        "id": "scale-agility",
-        "eyebrow": "BRINGING AI TOOLS INTO MBA LEARNING",
-        "heading": "New AI capabilities. Practical access.",
-        "text": "Wharton backs AI learning with school-supported tools and faculty-led workshops. Codex and Claude Code access is provided for MBA students moving from idea to implementation in about a month, and a practical workshop series created as the technology evolved.",
-        "image": {
-          "assetId": "stefano-teaching"
-        }
+        "embedUrl": "https://player.vimeo.com/video/1241422385?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
+        "videoTitle": "Michael Roberts on Wharton’s approach to AI education"
       },
       {
         "type": "cardGrid",
         "id": "learning-by-doing",
         "eyebrow": "WHAT YOU CAN EXPLORE IN THE WHARTON MBA",
-        "heading": "AI foundations, tools, and a path to go deeper.",
+        "heading": "Engage with AI at every level.",
         "columns": 3,
         "variant": "promotional",
         "items": [
           {
             "eyebrow": "FROM THE START",
             "title": "AI learning from Pre-Term",
-            "description": "AI learning begins during Pre-Term. Wharton also provides MBA students with access to ChatGPT, Codex, Claude, and Claude Code. Students must follow each instructor’s expectations for AI use.",
+            "description": "AI learning begins during Pre-Term, and Wharton gives MBA students access to ChatGPT, Codex, Claude, and Claude Code. Students follow each instructor’s expectations for AI use.",
             "image": {
               "assetId": "ai-preterm-hero"
             },
@@ -147,23 +62,23 @@
             }
           },
           {
-            "eyebrow": "AT THE FRONTIER",
-            "title": "Prepares Business Leaders in the AI Era",
-            "description": "Wharton’s AI for Business curriculum blends technical skills with ethics, governance, and human behavior, preparing leaders to guide AI’s impact responsibly. Students test ideas on real corporate projects.",
+            "eyebrow": "ACROSS THE MBA",
+            "title": "AI throughout your MBA, whatever your focus",
+            "description": "Every Wharton MBA student encounters AI, whether or not they pursue the AI major. Faculty bring it into courses across disciplines, team projects, and real corporate work, and open workshops like the Practical AI Workshop Series let any student build hands-on skills.",
             "image": {
               "assetId": "tit-9929"
             },
             "action": {
-              "label": "Explore Wharton's AI approach",
+              "label": "See how AI shows up across the MBA",
               "url": "https://www.wharton.upenn.edu/how-wharton-prepares-business-leaders-in-the-ai-era/",
               "type": "text",
               "external": true
             }
           },
           {
-            "eyebrow": "GO DEEPER",
-            "title": "A dedicated AI MBA major",
-            "description": "The Artificial Intelligence for Business major combines technical fluency with the business, economic, legal, ethical, psychological, and societal dimensions of AI.",
+            "eyebrow": "THE AI MAJOR",
+            "title": "Go deeper with the AI for Business major",
+            "description": "For students who want to specialize, the Artificial Intelligence for Business major pairs technical fluency with the business, economic, legal, ethical, and societal dimensions of AI.",
             "image": {
               "assetId": "mba-majors-hero"
             },
@@ -177,20 +92,44 @@
         ]
       },
       {
-        "type": "featureRow",
-        "id": "student-builder",
-        "eyebrow": "STUDENT SPOTLIGHT · GENERATIVE AI STUDIO",
-        "heading": "Build an AI idea through experimentation.",
-        "text": "Wharton profiled Hetvee Marviya, WG’27, building an AI-powered platform that turns current events into personalized comic strips for children. In the Generative AI Studio, students develop their ideas through prototyping, critique, and weekly iteration.",
-        "image": {
-          "assetId": "hetvee-marviya"
-        },
-        "mediaPosition": "start",
-        "action": {
-          "label": "Read Hetvee's story",
-          "url": "https://mba.wharton.upenn.edu/story/learning-by-building-inside-whartons-generative-ai-studio/",
-          "type": "text",
-          "external": true
+        "type": "mbaPair",
+        "id": "rigor",
+        "eyebrow": "RIGOR MEETS REAL-WORLD APPLICATION",
+        "heading": "Rigorous AI learning, put to work by students.",
+        "text": "Wharton’s academic standards shape what students build. Rigor in the classroom shows up in the ideas they test, the critique they receive, and the work they produce.",
+        "items": [
+          {
+            "eyebrow": "RIGOR IN AI LEARNING",
+            "title": "Use AI to deepen your thinking.",
+            "description": "Stronger models can sound more convincing, which makes business expertise and judgment more important. Wharton’s MBA AI programming helps students use AI to support their own learning and analysis, with application, discussion, and problem-solving at the center.",
+            "image": {
+              "assetId": "wharton-learning-experience"
+            }
+          },
+          {
+            "eyebrow": "STUDENT SPOTLIGHT · GENERATIVE AI STUDIO",
+            "title": "Build an AI idea through experimentation.",
+            "description": "Wharton profiled Hetvee Marviya, WG’27, building an AI-powered platform that turns current events into personalized comic strips for children. In the Generative AI Studio, students develop their ideas through prototyping, critique, and weekly iteration.",
+            "image": {
+              "assetId": "hetvee-marviya"
+            },
+            "action": {
+              "label": "Read Hetvee's story",
+              "url": "https://mba.wharton.upenn.edu/story/learning-by-building-inside-whartons-generative-ai-studio/",
+              "type": "text",
+              "external": true
+            }
+          }
+        ]
+      },
+      {
+        "type": "learningCycle",
+        "id": "learning-cycle",
+        "eyebrow": "FACULTY EXPERTISE",
+        "heading": "AI Research.\nBusiness Practice.\nMBA Learning.",
+        "text": "Wharton faculty study how AI changes business and engage with organizations putting it to work. Research, industry experience, and questions from students inform one another for a more robust classroom experience. For MBA prospects, that exchange connects AI learning to the questions businesses are facing right now.",
+        "backgroundImage": {
+          "assetId": "insights-gradient-background"
         }
       },
       {
@@ -209,22 +148,6 @@
         ],
         "backgroundImage": {
           "assetId": "tww-background"
-        }
-      },
-      {
-        "type": "pardotEmbed",
-        "id": "request-information",
-        "eyebrow": "TAKE THE NEXT STEP",
-        "heading": "Explore AI learning in the Wharton MBA.",
-        "text": "From Pre-Term AI foundations to an AI major, workshops, and opportunities to build, explore how Wharton’s MBA can fit your interests in AI and business. Request the MBA Guide to learn more about the program and applying.",
-        "image": {
-          "assetId": "mba-guide-form-preview"
-        },
-        "status": "pending-embed",
-        "fallbackUrl": "https://mba.wharton.upenn.edu/mba-guide/",
-        "fallbackLabel": "Request the Wharton MBA Guide",
-        "backgroundImage": {
-          "assetId": "mba-students-form-background"
         }
       }
     ]

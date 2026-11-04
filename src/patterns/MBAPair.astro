@@ -1,0 +1,32 @@
+---
+import type { Action, Asset } from "@entities/index";
+import Button from "@components/Button.astro";
+import Heading from "@components/Heading.astro";
+import Image from "@components/Image.astro";
+import Container from "@utilities/Container.astro";
+interface Item { eyebrow?: string; title: string; description: string; image?: Asset; action?: Action; }
+interface Props { id: string; eyebrow?: string; heading: string; text?: string; items: Item[]; }
+const { id, eyebrow, heading, text, items } = Astro.props;
+---
+<section id={id} class="p-mba-pair" aria-labelledby={`${id}-heading`}>
+  <Container>
+    <header class="p-mba-pair__intro">
+      {eyebrow && <p class="c-eyebrow">{eyebrow}</p>}
+      <Heading as="h2" id={`${id}-heading`}>{heading}</Heading>
+      {text && <p>{text}</p>}
+    </header>
+    <div class="p-mba-pair__grid">
+      {items.map((item) => (
+        <article class="p-mba-pair__item">
+          {item.image && <Image asset={item.image} class="p-mba-pair__media" />}
+          <div class="p-mba-pair__body">
+            {item.eyebrow && <p class="c-eyebrow">{item.eyebrow}</p>}
+            <h3>{item.title}</h3>
+            <p>{item.description}</p>
+            {item.action && <Button href={item.action.url} variant={item.action.type} external={item.action.external}>{item.action.label}</Button>}
+          </div>
+        </article>
+      ))}
+    </div>
+  </Container>
+</section>
