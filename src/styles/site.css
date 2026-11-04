@@ -288,7 +288,9 @@
  .p-mba-perspective__quote figcaption strong{font-family:var(--font-family-sans-bold);color:#011f5b}
  .p-mba-perspective__portrait{margin:0;flex:none;inline-size:5.5rem}
  .p-mba-perspective__portrait img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
- .p-mba-perspective__video{position:relative;aspect-ratio:16/9;background:#011f5b;overflow:hidden;align-self:center}
+ .p-mba-perspective__media{display:grid;gap:1.25rem;align-content:center;min-width:0}
+ .p-mba-perspective__lead{margin:0;font-size:clamp(1.05rem,1.4vw,1.2rem);line-height:1.5;color:#011f5b}
+ .p-mba-perspective__video{position:relative;aspect-ratio:16/9;background:#011f5b;overflow:hidden}
  .p-mba-perspective__video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
  .p-mba-perspective__video:focus-within{outline:3px solid #2FB6F2;outline-offset:4px}
  @media(min-width:56rem){.p-mba-perspective__grid{grid-template-columns:minmax(0,1fr) minmax(0,1.1fr)}}

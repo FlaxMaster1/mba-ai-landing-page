@@ -37,7 +37,8 @@
           "assetId": "roberts-headshot"
         },
         "embedUrl": "https://player.vimeo.com/video/1241422385?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479",
-        "videoTitle": "Michael Roberts on Wharton’s approach to AI education"
+        "videoTitle": "Michael Roberts on Wharton’s approach to AI education",
+        "videoText": "Wharton prepares students to combine business expertise with a working knowledge of AI, to redesign how work gets done, and to take responsibility for the results."
       },
       {
         "type": "cardGrid",

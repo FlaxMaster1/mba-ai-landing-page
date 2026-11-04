@@ -5,9 +5,9 @@ import Image from "@components/Image.astro";
 import Container from "@utilities/Container.astro";
 interface Props {
   id: string; eyebrow?: string; heading: string; quote: string;
-  attribution: string; role: string; image: Asset; embedUrl: string; videoTitle: string;
+  attribution: string; role: string; image: Asset; embedUrl: string; videoTitle: string; videoText?: string;
 }
-const { id, eyebrow, heading, quote, attribution, role, image, embedUrl, videoTitle } = Astro.props;
+const { id, eyebrow, heading, quote, attribution, role, image, embedUrl, videoTitle, videoText } = Astro.props;
 ---
 <section id={id} class="p-mba-perspective" aria-labelledby={`${id}-heading`}>
   <Container>
@@ -23,8 +23,11 @@ const { id, eyebrow, heading, quote, attribution, role, image, embedUrl, videoTi
           <span><strong>{attribution}</strong><span>{role}</span></span>
         </figcaption>
       </figure>
-      <div class="p-mba-perspective__video">
+      <div class="p-mba-perspective__media">
+        {videoText && <p class="p-mba-perspective__lead">{videoText}</p>}
+        <div class="p-mba-perspective__video">
         <iframe src={embedUrl} title={videoTitle} loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
       </div>
     </div>
   </Container>
