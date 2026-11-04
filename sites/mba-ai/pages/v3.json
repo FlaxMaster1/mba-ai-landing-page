@@ -155,22 +155,6 @@
         "backgroundImage": {
           "assetId": "tww-background"
         }
-      },
-      {
-        "type": "pardotEmbed",
-        "id": "request-information",
-        "eyebrow": "TAKE THE NEXT STEP",
-        "heading": "Explore AI learning in the Wharton MBA.",
-        "text": "From Pre-Term AI foundations to an AI major, workshops, and opportunities to build, explore how Wharton’s MBA can fit your interests in AI and business. Request the MBA Guide to learn more about the program and applying.",
-        "image": {
-          "assetId": "mba-guide-form-preview"
-        },
-        "status": "pending-embed",
-        "fallbackUrl": "https://mba.wharton.upenn.edu/mba-guide/",
-        "fallbackLabel": "Request the Wharton MBA Guide",
-        "backgroundImage": {
-          "assetId": "mba-students-form-background"
-        }
       }
     ]
   }
