@@ -98,5 +98,10 @@
     "id": "tww-background",
     "file": "images/tww-background.avif",
     "alt": ""
+  },
+  {
+    "id": "faculty-expertise-hexagons",
+    "file": "images/faculty-expertise-hexagons.png",
+    "alt": "Collage of hexagonal photos: a Wharton faculty member presenting on stage, an attentive audience, and a student speaking"
   }
 ]

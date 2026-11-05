@@ -138,21 +138,9 @@
         "backgroundImage": {
           "assetId": "insights-gradient-background"
         },
-        "layout": "split",
-        "stages": [
-          {
-            "label": "AI Research",
-            "description": "Faculty study how AI is transforming business and where its limits matter."
-          },
-          {
-            "label": "Business Practice",
-            "description": "Faculty engage directly with organizations applying AI in practice."
-          },
-          {
-            "label": "MBA Learning",
-            "description": "Research, industry experience, and collaboration with students shape learning across the MBA Program."
-          }
-        ]
+        "image": {
+          "assetId": "faculty-expertise-hexagons"
+        }
       },
       {
         "type": "pageIntro",
