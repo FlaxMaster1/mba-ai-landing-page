@@ -317,3 +317,9 @@
  .t-page-content:has(> #sources):has(> #advantage.p-mba-perspective) #sources .c-button--secondary:hover { color: #fff; background: #011f5b; }
  .t-page-content:has(> #sources):has(> #advantage.p-mba-perspective) #sources .c-button:focus-visible { outline-color: #2FB6F2; }
 }
+
+/* v3: faculty section pairs its copy with a hexagon photo collage in column 2. */
+@layer site {
+ .p-mba-cycle__media { margin: 0; inline-size: min(600px, 100%); justify-self: center; }
+ .p-mba-cycle__media img { display: block; inline-size: 100%; block-size: auto; aspect-ratio: auto; object-fit: contain; }
+}
