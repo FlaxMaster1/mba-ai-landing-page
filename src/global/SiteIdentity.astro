@@ -1,0 +1,6 @@
+---
+import { siteUrl } from "@rendering/site-url";
+interface Props { name: string; url?: string; }
+const { name, url = "/" } = Astro.props;
+---
+<a class="g-site-identity" href={siteUrl(url)}>{name}</a>

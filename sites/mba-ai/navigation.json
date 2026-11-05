@@ -1,0 +1,142 @@
+{
+  "program": [
+    {
+      "label": "Faculty",
+      "url": "https://faculty.wharton.upenn.edu/",
+      "external": true
+    },
+    {
+      "label": "Youth Program",
+      "url": "https://globalyouth.wharton.upenn.edu/",
+      "external": true
+    },
+    {
+      "label": "Undergrad",
+      "url": "https://undergrad.wharton.upenn.edu/",
+      "external": true
+    },
+    {
+      "label": "Jacobs MSQF",
+      "url": "https://jacobs-msqf.wharton.upenn.edu/",
+      "external": true
+    },
+    {
+      "label": "MBA",
+      "url": "https://mba.wharton.upenn.edu/",
+      "external": true
+    },
+    {
+      "label": "EMBA",
+      "url": "https://executivemba.wharton.upenn.edu/",
+      "external": true
+    },
+    {
+      "label": "PhD",
+      "url": "https://doctoral.wharton.upenn.edu/",
+      "external": true
+    },
+    {
+      "label": "Exec Ed",
+      "url": "https://executiveeducation.wharton.upenn.edu/",
+      "external": true
+    },
+    {
+      "label": "Wharton Online",
+      "url": "https://online.wharton.upenn.edu/",
+      "external": true
+    },
+    {
+      "label": "Knowledge at Wharton",
+      "url": "https://knowledge.wharton.upenn.edu/",
+      "external": true,
+      "logo": {
+        "src": "/shared/logos/kw-logo.svg",
+        "width": 313,
+        "height": 25
+      }
+    }
+  ],
+  "primary": [
+    {
+      "label": "Facts & Figures",
+      "url": "https://mba.wharton.upenn.edu/class-profile/",
+      "external": true,
+      "children": [
+        {
+          "label": "Class Profile",
+          "url": "https://mba.wharton.upenn.edu/class-profile/",
+          "external": true
+        },
+        {
+          "label": "MBA Value",
+          "url": "https://mba.wharton.upenn.edu/whats-possible-with-a-wharton-mba/",
+          "external": true
+        }
+      ]
+    },
+    {
+      "label": "Academics",
+      "url": "https://mba.wharton.upenn.edu/mba-program-details/",
+      "external": true,
+      "children": [
+        {
+          "label": "MBA Program Details",
+          "url": "https://mba.wharton.upenn.edu/mba-program-details/",
+          "external": true
+        },
+        {
+          "label": "Curriculum",
+          "url": "https://mba.wharton.upenn.edu/mba-curriculum/",
+          "external": true
+        },
+        {
+          "label": "MBA Majors",
+          "url": "https://mba.wharton.upenn.edu/mba-majors/",
+          "external": true
+        }
+      ]
+    },
+    {
+      "label": "Student Life",
+      "url": "https://mba.wharton.upenn.edu/student-life/",
+      "external": true
+    },
+    {
+      "label": "Careers & Network",
+      "url": "https://mba.wharton.upenn.edu/mba-career-services/",
+      "external": true,
+      "children": [
+        {
+          "label": "Career Services",
+          "url": "https://mba.wharton.upenn.edu/mba-career-services/",
+          "external": true
+        },
+        {
+          "label": "MBA Impact",
+          "url": "https://mba.wharton.upenn.edu/whats-possible-with-a-wharton-mba/",
+          "external": true
+        }
+      ]
+    },
+    {
+      "label": "MBA Stories",
+      "url": "https://mba.wharton.upenn.edu/stories/",
+      "external": true
+    },
+    {
+      "label": "Applying",
+      "url": "https://mba.wharton.upenn.edu/application-timeline-deadlines/",
+      "external": true
+    },
+    {
+      "label": "Financing",
+      "url": "https://mba.wharton.upenn.edu/tuition-financial-aid/",
+      "external": true
+    },
+    {
+      "label": "Events",
+      "url": "https://mba.wharton.upenn.edu/events/",
+      "external": true
+    }
+  ]
+}

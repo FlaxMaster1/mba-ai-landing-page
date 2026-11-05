@@ -1,0 +1,267 @@
+[
+  {
+    "route": "/",
+    "template": "landing",
+    "title": "An MBA Built for Learning with AI and What Comes Next",
+    "titleMode": "hero",
+    "width": "full-window",
+    "sidebar": "none",
+    "seo": {
+      "title": "An MBA Built for Learning with AI and What Comes Next",
+      "description": "Discover how Wharton's MBA develops leaders who combine AI fluency with rigorous business judgment, research, and practice."
+    },
+    "sections": [
+      {
+        "type": "hero",
+        "id": "top",
+        "eyebrow": "THE WHARTON MBA \u00b7 AI AND LEADERSHIP",
+        "heading": "An MBA Built for Learning with AI and What Comes Next",
+        "text": "AI is changing the work. Wharton prepares you to rethink how work gets done, build what comes next, and lead with judgment.",
+        "image": {
+          "assetId": "hero-art"
+        },
+        "variant": "media"
+      },
+      {
+        "type": "statsGroup",
+        "id": "by-the-numbers",
+        "heading": "By the Numbers",
+        "text": "AI and analytics across the Wharton School.",
+        "items": [
+          {
+            "value": "90+",
+            "label": "AI and Analytics Affiliated Faculty"
+          },
+          {
+            "value": "65+",
+            "label": "AI and Analytics Courses Across Degree Programs"
+          },
+          {
+            "value": "10",
+            "label": "AI and Analytics Executive Education Programs"
+          },
+          {
+            "value": "9",
+            "label": "AI and Analytics Research Centers and Labs"
+          }
+        ]
+      },
+      {
+        "type": "mbaQuote",
+        "id": "advantage",
+        "eyebrow": "THE CASE FOR A WHARTON MBA",
+        "heading": "Access to AI is universal. The ability to lead with it is not.",
+        "quote": "AI can give you an answer. The real question is whether you know what to ask, how to challenge the result, and what to do next. At Wharton, we develop the business judgment to turn powerful tools into better decisions\u2014and the leadership to take responsibility for them.",
+        "attribution": "Michael Roberts",
+        "role": "Vice Dean of the MBA Program",
+        "approvalNote": "Draft quote \u2014 pending Michael Roberts\u2019 approval",
+        "image": {
+          "assetId": "roberts-headshot"
+        }
+      },
+      {
+        "type": "mbaMedia",
+        "id": "manifesto-film",
+        "eyebrow": "THE WHARTON PERSPECTIVE",
+        "heading": "The future needs more than AI proficiency.",
+        "text": "Michael Roberts, Vice Dean of the MBA Program, makes the case for an education that develops builders, critical thinkers, and leaders. A new page-exclusive film is planned; this production slot is deliberately not the same edit used in the admissions email series.",
+        "kind": "original-film",
+        "status": "planned",
+        "duration": "75\u201390 seconds",
+        "poster": {
+          "assetId": "learning-art"
+        },
+        "link": {
+          "label": "Explore Wharton's schoolwide AI Advantage",
+          "url": "https://www.wharton.upenn.edu/ai-advantage/",
+          "type": "text"
+        }
+      },
+      {
+        "type": "learningCycle",
+        "id": "learning-cycle",
+        "eyebrow": "HOW WHARTON TEACHES DIFFERENTLY",
+        "heading": "Research. Industry. Classroom. Repeat.",
+        "text": "Wharton faculty do not operate in separate worlds as researchers, teachers, and practitioners. They bring questions from industry into research, test insights with executives, and carry new discoveries into the classroom. Students challenge those ideas, generating new questions for the next cycle.",
+        "stages": [
+          {
+            "label": "Research",
+            "description": "Discover what AI makes possible and where its limits matter."
+          },
+          {
+            "label": "Practice",
+            "description": "Work directly with organizations and executives confronting change."
+          },
+          {
+            "label": "Classroom",
+            "description": "Turn emerging insight into rigorous, applied learning."
+          }
+        ]
+      },
+      {
+        "type": "cardGrid",
+        "id": "what-sets-you-apart",
+        "eyebrow": "THREE ESSENTIAL CAPABILITIES",
+        "heading": "The skills that separate good answers from consequential decisions.",
+        "columns": 3,
+        "variant": "editorial",
+        "items": [
+          {
+            "title": "Think beyond the output",
+            "eyebrow": "01 / JUDGMENT",
+            "description": "Interrogate assumptions, evaluate evidence, and determine what an AI-generated answer gets right and what it misses."
+          },
+          {
+            "title": "Build solutions",
+            "eyebrow": "02 / APPLICATION",
+            "description": "Combine technical fluency with business expertise to create useful new tools, capabilities, and ways of working."
+          },
+          {
+            "title": "Own the decision",
+            "eyebrow": "03 / ACCOUNTABILITY",
+            "description": "Communicate the reasoning, earn alignment, and take responsibility for the results when the stakes are real."
+          }
+        ]
+      },
+      {
+        "type": "featureRow",
+        "id": "rigor",
+        "eyebrow": "THE WHARTON LEARNING EXPERIENCE",
+        "heading": "Rigor is how your advantage gets built.",
+        "text": "Wharton is not designed around finding the quickest answer. Faculty push students to defend reasoning, test assumptions, debate trade-offs, and communicate decisions. Through demanding analysis, practical problem-solving, and teamwork, students develop judgment that remains valuable even as the tools evolve.",
+        "image": {
+          "assetId": "wharton-learning-experience"
+        },
+        "mediaPosition": "end",
+        "action": {
+          "label": "Explore the MBA curriculum",
+          "url": "https://mba.wharton.upenn.edu/mba-curriculum/",
+          "type": "text",
+          "external": true
+        }
+      },
+      {
+        "type": "pageIntro",
+        "id": "scale-agility",
+        "eyebrow": "SCALE WITH THE INSTINCT TO MOVE",
+        "heading": "A large institution. An entrepreneurial mindset.",
+        "text": "Wharton's scale connects MBA students to faculty expertise across disciplines and alumni across industries. Its agility brings emerging technologies into students' hands while they still matter. As the frontier changes, the learning experience can change with it.",
+        "image": {
+          "assetId": "scale-city"
+        }
+      },
+      {
+        "type": "cardGrid",
+        "id": "learning-by-doing",
+        "eyebrow": "THE PROOF IS IN THE EXPERIENCE",
+        "heading": "AI isn't a distant subject. It's part of the MBA experience.",
+        "columns": 3,
+        "variant": "promotional",
+        "items": [
+          {
+            "eyebrow": "FROM THE START",
+            "title": "Tools for doing the work",
+            "description": "MBA students are introduced to AI during Pre-Term, with school-supported access to ChatGPT, Codex, Claude, and Claude Code. Faculty expectations for responsible classroom use still apply.",
+            "image": {
+              "assetId": "ai-preterm-hero"
+            },
+            "action": {
+              "label": "See the MBA AI foundation",
+              "url": "https://www.wharton.upenn.edu/whartons-mba-experience-begins-with-teamwork-leadership-and-ai/",
+              "type": "text",
+              "external": true
+            }
+          },
+          {
+            "eyebrow": "AT THE FRONTIER",
+            "title": "Faculty-led AI workshops",
+            "description": "Michael Roberts joined Ethan Mollick, Kartik Hosanagar, and Daniel Rock in practical workshops designed to share how faculty use AI in professional and personal work.",
+            "image": {
+              "assetId": "tit-9929"
+            },
+            "action": {
+              "label": "Explore Wharton's AI approach",
+              "url": "https://www.wharton.upenn.edu/ai-advantage/",
+              "type": "text",
+              "external": true
+            }
+          },
+          {
+            "eyebrow": "GO DEEPER",
+            "title": "A dedicated AI MBA major",
+            "description": "The Artificial Intelligence for Business major connects technical understanding with the economic, strategic, ethical, and organizational questions that shape business decisions.",
+            "image": {
+              "assetId": "mba-majors-hero"
+            },
+            "action": {
+              "label": "Explore the AI curriculum",
+              "url": "https://mba.wharton.upenn.edu/mba-majors/",
+              "type": "text",
+              "external": true
+            }
+          }
+        ]
+      },
+      {
+        "type": "featureRow",
+        "id": "student-builder",
+        "eyebrow": "STUDENT SPOTLIGHT \u00b7 GENERATIVE AI STUDIO",
+        "heading": "From learning AI to building something new.",
+        "text": "In Wharton's Generative AI Studio, Hetvee Marviya, WG'27, is developing an AI-powered platform that transforms current events into personalized comic strips for children. The Studio emphasizes prototyping, feedback, and iteration: students create, test, and improve rather than simply study what's possible. A new student-film interview can bring this section to life in a future production round.",
+        "image": {
+          "assetId": "hetvee-marviya"
+        },
+        "mediaPosition": "start",
+        "action": {
+          "label": "Read Hetvee's story",
+          "url": "https://mba.wharton.upenn.edu/story/learning-by-building-inside-whartons-generative-ai-studio/",
+          "type": "text",
+          "external": true
+        }
+      },
+      {
+        "type": "callout",
+        "id": "long-term-value",
+        "eyebrow": "BEYOND THE FIRST ROLE",
+        "heading": "The value isn't measured only at graduation.",
+        "text": "An MBA is an investment in what you can contribute over the course of a career: the problems you're equipped to solve, the people you're prepared to lead, and the community you can continue to learn from. Those are advantages designed to compound.",
+        "action": {
+          "label": "Explore the value of a Wharton MBA",
+          "url": "https://mba.wharton.upenn.edu/whats-possible-with-a-wharton-mba/",
+          "type": "secondary",
+          "external": true
+        },
+        "surface": "brand-primary",
+        "image": {
+          "assetId": "beyond-first-role"
+        }
+      },
+      {
+        "type": "pardotEmbed",
+        "id": "request-information",
+        "eyebrow": "TAKE THE NEXT STEP",
+        "heading": "Shape what comes next.",
+        "text": "Learn how the Wharton MBA brings together rigorous business education, AI fluency, and real-world experience. Request more information to explore whether Wharton is the right next investment in your future.",
+        "status": "pending-embed",
+        "fallbackUrl": "https://mba.wharton.upenn.edu/mba-guide/",
+        "fallbackLabel": "Explore the Wharton MBA Guide",
+        "image": {
+          "assetId": "take-next-step-form"
+        }
+      },
+      {
+        "type": "callout",
+        "id": "closing",
+        "heading": "The future of business won't stand still.",
+        "text": "Neither will the people prepared to lead it.",
+        "action": {
+          "label": "Explore the MBA Program",
+          "url": "https://mba.wharton.upenn.edu/",
+          "type": "primary",
+          "external": true
+        },
+        "surface": "subtle"
+      }
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+---
+import type { Asset } from "@entities/index";
+import Heading from "@components/Heading.astro";
+import Image from "@components/Image.astro";
+import Container from "@utilities/Container.astro";
+interface Props {
+  id: string; eyebrow?: string; heading: string; quote: string;
+  attribution: string; role: string; image: Asset; embedUrl: string; videoTitle: string; videoText?: string;
+}
+const { id, eyebrow, heading, quote, attribution, role, image, embedUrl, videoTitle, videoText } = Astro.props;
+---
+<section id={id} class="p-mba-perspective" aria-labelledby={`${id}-heading`}>
+  <Container>
+    <header class="p-mba-perspective__intro">
+      {eyebrow && <p class="c-eyebrow">{eyebrow}</p>}
+      <Heading as="h2" id={`${id}-heading`}>{heading}</Heading>
+      {videoText && <p class="p-mba-perspective__lead">{videoText}</p>}
+    </header>
+    <div class="p-mba-perspective__grid">
+      <div class="p-mba-perspective__video">
+        <iframe src={embedUrl} title={videoTitle} loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <figure class="p-mba-perspective__quote">
+        <blockquote><p>“{quote}”</p></blockquote>
+        <figcaption>
+          <Image asset={image} class="p-mba-perspective__portrait" />
+          <span><strong>{attribution}</strong><span>{role}</span></span>
+        </figcaption>
+      </figure>
+    </div>
+  </Container>
+</section>

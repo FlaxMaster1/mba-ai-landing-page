@@ -1,0 +1,33 @@
+{
+  "program": [
+    { "label": "Faculty", "url": "https://faculty.wharton.upenn.edu/", "external": true },
+    { "label": "Youth Program", "url": "https://globalyouth.wharton.upenn.edu/", "external": true },
+    { "label": "Undergrad", "url": "https://undergrad.wharton.upenn.edu/", "external": true },
+    { "label": "Jacobs MSQF", "url": "https://jacobslevycenter.wharton.upenn.edu/", "external": true },
+    { "label": "MBA", "url": "https://mba.wharton.upenn.edu/", "external": true },
+    { "label": "EMBA", "url": "https://executivemba.wharton.upenn.edu/", "external": true },
+    { "label": "PhD", "url": "https://doctoral.wharton.upenn.edu/", "external": true },
+    { "label": "Exec Ed", "url": "https://executiveeducation.wharton.upenn.edu/", "external": true },
+    { "label": "Wharton Online", "url": "https://online.wharton.upenn.edu/", "external": true },
+    {
+      "label": "Knowledge at Wharton",
+      "url": "https://knowledge.wharton.upenn.edu/",
+      "external": true,
+      "logo": { "src": "/shared/logos/kw-logo.svg", "width": 313, "height": 25 }
+    }
+  ],
+  "primary": [
+    {
+      "label": "Explore",
+      "url": "/academics/",
+      "children": [
+        { "label": "Landing template", "url": "/academics/" },
+        { "label": "Topic template", "url": "/events/" },
+        { "label": "Directory template", "url": "/people/" }
+      ]
+    },
+    { "label": "Article", "url": "/insights/structured-content/" },
+    { "label": "Resources", "url": "/resources/" },
+    { "label": "Catalog", "url": "/catalog/" }
+  ]
+}
