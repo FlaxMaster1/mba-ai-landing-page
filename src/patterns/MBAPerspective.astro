@@ -24,10 +24,10 @@ const { id, eyebrow, heading, quote, attribution, role, image, embedUrl, videoTi
         </figcaption>
       </figure>
       <div class="p-mba-perspective__media">
-        {videoText && <p class="p-mba-perspective__lead">{videoText}</p>}
         <div class="p-mba-perspective__video">
         <iframe src={embedUrl} title={videoTitle} loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
+        {videoText && <p class="p-mba-perspective__lead">{videoText}</p>}
       </div>
     </div>
   </Container>
