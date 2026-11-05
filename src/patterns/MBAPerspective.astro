@@ -14,8 +14,8 @@ const { id, eyebrow, heading, quote, attribution, role, image, embedUrl, videoTi
     <header class="p-mba-perspective__intro">
       {eyebrow && <p class="c-eyebrow">{eyebrow}</p>}
       <Heading as="h2" id={`${id}-heading`}>{heading}</Heading>
+      {videoText && <p class="p-mba-perspective__lead">{videoText}</p>}
     </header>
-    {videoText && <p class="p-mba-perspective__lead">{videoText}</p>}
     <div class="p-mba-perspective__grid">
       <div class="p-mba-perspective__video">
         <iframe src={embedUrl} title={videoTitle} loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
